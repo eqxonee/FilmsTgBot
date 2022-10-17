@@ -20,6 +20,11 @@ public class Films {
         this.styleFilmToId = styleFilmToId;
     }
 
+    public Films(long chatId, String name){
+        this.chatId = chatId;
+        this.name = name;
+    }
+
     public int getId() {
         return id;
     }

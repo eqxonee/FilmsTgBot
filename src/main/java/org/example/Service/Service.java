@@ -7,5 +7,5 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public interface Service {
-        SendMessage processUpdate(String textData, TransmittedData transmittedData);
+        SendMessage processUpdate(String textData, TransmittedData transmittedData) throws Exception;
 }

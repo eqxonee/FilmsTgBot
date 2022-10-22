@@ -1,6 +1,7 @@
 package org.example.Service;
 
 import org.example.Service.Handlers.MainMenuService;
+import org.example.Service.Handlers.StaticService;
 import org.example.Statemachine.State;
 import org.example.Statemachine.TransmittedData;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -12,15 +13,22 @@ public class ServiceManager {
 
     private Map<State,Service> methods;
     private MainMenuService mainMenuService;
+    private StaticService staticService;
 
     public ServiceManager() {
         methods = new HashMap<>();
         mainMenuService = new MainMenuService();
+        staticService = new StaticService();
 
         methods.put(State.WaitingCommandStart,mainMenuService::processCommandStart);
+        methods.put(State.WaitingClickOnInlineButtonInMenuMain,mainMenuService::processClickOnInlineButtonInMenuMain);
     }
 
-    public SendMessage processUpdate(String textData, TransmittedData transmittedData) {
+    public SendMessage processUpdate(String textData, TransmittedData transmittedData) throws Exception {
        return methods.get(transmittedData.getState()).processUpdate(textData, transmittedData);
+    }
+
+    public StaticService getStaticService() {
+        return staticService;
     }
 }

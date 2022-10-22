@@ -1,6 +1,7 @@
 package org.example.Statemachine;
 
 import org.example.Service.ServiceManager;
+import org.example.Util.SystemStringsStorage;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -19,13 +20,17 @@ public class ChatRouter {
         serviceManager = new ServiceManager();
     }
 
-    public SendMessage route(long chatId, String textData){
+    public SendMessage route(long chatId, String textData) throws Exception {
 
         if(!chats.containsKey(chatId)){
             chats.put(chatId,new TransmittedData(chatId));
         }
 
         TransmittedData transmittedData = chats.get(chatId);
+
+        if(textData.equals(SystemStringsStorage.CommandReset) && transmittedData.getState() != State.WaitingCommandStart){
+            return serviceManager.getStaticService().processCommandReset(transmittedData);
+        }
 
        return serviceManager.processUpdate(textData, transmittedData);
     }

@@ -29,4 +29,5 @@ public class ButtonsStorage {
     public final static Button ButtonStylesFilmsFromMenuMainHistory = new Button("Исторические", "ButtonStylesFilmsFromMenuMainHistory");
     public final static Button ButtonStylesFilmsFromMenuMainComedy = new Button("Комедии", "ButtonStylesFilmsFromMenuMainComedy");
     public final static Button ButtonStylesFilmsFromMenuMainMilitary = new Button("Боевики", "ButtonStylesFilmsFromMenuMainMilitary");
+
 }

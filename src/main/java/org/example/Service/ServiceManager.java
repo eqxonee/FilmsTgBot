@@ -24,6 +24,7 @@ public class ServiceManager {
         methods.put(State.WaitingClickOnInlineButtonInMenuMain,mainMenuService::processClickOnInlineButtonInMenuMain);
         methods.put(State.WaitingClickOnInlineButtonInMenuChooseFilm,mainMenuService::processClickOnInlineButtonStylesFilms);
         methods.put(State.WaitingInputStartFromMenu,mainMenuService::processCommandStart);
+
     }
 
     public SendMessage processUpdate(String textData, TransmittedData transmittedData) throws Exception {

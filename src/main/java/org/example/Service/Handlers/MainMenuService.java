@@ -70,26 +70,49 @@ public class MainMenuService {
         SendMessage message = new SendMessage();
         message.setChatId(transmittedData.getChatId());
         if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHorrors.getCallBackData())) {
-            message.setText(DialogStringsStorage.CommandStyleFilmsHorror);
             List<Film> filmList = DbManager.getInstance().getTableFilms().getAllHorror();
+            StringBuilder stringBuilder = new StringBuilder();
+
+            for (Film film : filmList) {
+                stringBuilder.append(film.toString() + "\n");
+            }
+
+            String filmsAsText = stringBuilder.toString();
+
+            message.setText(DialogStringsStorage.CommandStyleFilmsHorror + "\n" + filmsAsText);
             transmittedData.setState(WaitingInputStartFromMenu);
+
             return message;
 
         } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMystic.getCallBackData())) {
-            message.setText("Вы нажали на мистика");
-            return message;
-        } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHistory.getCallBackData())) {
-            message.setText("Вы нажали на исторические");
-            return message;
-        } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainComedy.getCallBackData())) {
-            message.setText("Вы нажали на комедии");
-            return message;
-        } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMilitary.getCallBackData())) {
-            message.setText("Вы нажали на боевики");
-            return message;
+            if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMystic.getCallBackData())) {
+                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllMystic();
+                StringBuilder stringBuilder = new StringBuilder();
+
+                for (Film film : filmList) {
+                    stringBuilder.append(film.toString() + "\n");
+                }
+
+                String filmsAsText = stringBuilder.toString();
+
+                message.setText(DialogStringsStorage.CommandStyleFilmsMystic + "\n" + filmsAsText);
+                transmittedData.setState(WaitingInputStartFromMenu);
+                return message;
+            }
+
+            } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHistory.getCallBackData())) {
+                message.setText("Вы нажали на исторические");
+                return message;
+            } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainComedy.getCallBackData())) {
+                message.setText("Вы нажали на комедии");
+                return message;
+            } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMilitary.getCallBackData())) {
+                message.setText("Вы нажали на боевики");
+                return message;
+            }
+
+            throw new Exception("Ввод говно");
         }
-        throw new Exception("Ввод говно");
-    }
 }
 
 

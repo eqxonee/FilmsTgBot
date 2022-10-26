@@ -103,4 +103,27 @@ public class TableFilms {
         statement.close();
         return films;
     }
+
+    public List<Film> getAllMystic() throws SQLException {
+        List<Film> films = new ArrayList<>();
+
+        Statement statement = connection.createStatement();
+
+        String selectQuery = String.format("SELECT * FROM films WHERE style_film_id = 2");
+        ResultSet resultSet = statement.executeQuery(selectQuery);
+
+
+        while (resultSet.next()) {
+            String name = resultSet.getString("name");
+            int timeLength = resultSet.getInt("time_length");
+            String linkFilm = resultSet.getString("link_film");
+            int releaseFilm = resultSet.getInt("release_year");
+
+            films.add(new Film(name,timeLength,linkFilm,releaseFilm));
+        }
+
+        resultSet.close();
+        statement.close();
+        return films;
+    }
 }

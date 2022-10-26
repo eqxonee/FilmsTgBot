@@ -24,4 +24,9 @@ public class ButtonsStorage {
     public final static Button ButtonAddFilmsInMenuMain = new Button("Добавить фильм", "ButtonTransferMoneyInMenuMain");
     public final static Button ButtonDeleteFilmsInMenuMain = new Button("Удалить фильм", "ButtonInstructionInMenuMain");
     public final static Button ButtonFindFilmsInMenuMain = new Button("Поиск фильма", "ButtonInstructionInMenuMain");
+    public final static Button ButtonStylesFilmsFromMenuMainHorrors = new Button("Ужасы", "ButtonStylesFilmsFromMenuMainHorrors");
+    public final static Button ButtonStylesFilmsFromMenuMainMystic = new Button("Мистика", "ButtonStylesFilmsFromMenuMainMystic");
+    public final static Button ButtonStylesFilmsFromMenuMainHistory = new Button("Исторические", "ButtonStylesFilmsFromMenuMainHistory");
+    public final static Button ButtonStylesFilmsFromMenuMainComedy = new Button("Комедии", "ButtonStylesFilmsFromMenuMainComedy");
+    public final static Button ButtonStylesFilmsFromMenuMainMilitary = new Button("Боевики", "ButtonStylesFilmsFromMenuMainMilitary");
 }

@@ -1,6 +1,6 @@
 package org.example.Model.Entities;
 
-public class Films {
+public class Film {
 
     private int id;
     private String name;
@@ -10,7 +10,7 @@ public class Films {
     private int releaseFilm;
     private int styleFilmToId;
 
-    public Films(int id,long chatId, String name, int timeLength, String linkFilm, int releaseFilm, int styleFilmToId) {
+    public Film(int id, long chatId, String name, int timeLength, String linkFilm, int releaseFilm, int styleFilmToId) {
         this.id = id;
         this.chatId = chatId;
         this.name = name;
@@ -20,9 +20,16 @@ public class Films {
         this.styleFilmToId = styleFilmToId;
     }
 
-    public Films(long chatId, String name){
+    public Film(long chatId, String name){
         this.chatId = chatId;
         this.name = name;
+    }
+
+    public Film(String name, int timeLength, String linkFilm, int releaseFilm) {
+        this.name = name;
+        this.timeLength = timeLength;
+        this.linkFilm = linkFilm;
+        this.releaseFilm = releaseFilm;
     }
 
     public int getId() {

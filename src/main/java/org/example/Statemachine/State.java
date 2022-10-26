@@ -8,7 +8,7 @@ public enum State {
     WaitingClickOnInlineButtonInMenuAddFilm,
     WaitingClickOnInlineButtonInMenuDeleteFilm,
     WaitingClickOnInlineButtonInMenuChooseFromDeleteFilm,
-    WaitingClickOnInlineButtonInMenuFindFilm;
+    WaitingClickOnInlineButtonInMenuFindFilm
 
 
 }

@@ -100,19 +100,56 @@ public class MainMenuService {
                 return message;
             }
 
-            } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHistory.getCallBackData())) {
-                message.setText("Вы нажали на исторические");
+        } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHistory.getCallBackData())) {
+            if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHistory.getCallBackData())) {
+                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllHistory();
+                StringBuilder stringBuilder = new StringBuilder();
+
+                for (Film film : filmList) {
+                    stringBuilder.append(film.toString() + "\n");
+                }
+
+                String filmsAsText = stringBuilder.toString();
+
+                message.setText(DialogStringsStorage.CommandStyleFilmsHistory + "\n" + filmsAsText);
+                transmittedData.setState(WaitingInputStartFromMenu);
                 return message;
-            } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainComedy.getCallBackData())) {
-                message.setText("Вы нажали на комедии");
+            }
+        } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainComedy.getCallBackData())) {
+            if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainComedy.getCallBackData())) {
+                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllComedy();
+                StringBuilder stringBuilder = new StringBuilder();
+
+                for (Film film : filmList) {
+                    stringBuilder.append(film.toString() + "\n");
+                }
+
+                String filmsAsText = stringBuilder.toString();
+
+                message.setText(DialogStringsStorage.CommandStyleFilmsComedy + "\n" + filmsAsText);
+                transmittedData.setState(WaitingInputStartFromMenu);
                 return message;
+            }
             } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMilitary.getCallBackData())) {
-                message.setText("Вы нажали на боевики");
+            if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMilitary.getCallBackData())) {
+                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllMilitary();
+                StringBuilder stringBuilder = new StringBuilder();
+
+                for (Film film : filmList) {
+                    stringBuilder.append(film.toString() + "\n");
+                }
+
+                String filmsAsText = stringBuilder.toString();
+
+                message.setText(DialogStringsStorage.CommandStyleFilmsMilitary + "\n" + filmsAsText);
+                transmittedData.setState(WaitingInputStartFromMenu);
                 return message;
+            }
             }
 
             throw new Exception("Ввод говно");
         }
-}
+    }
+
 
 

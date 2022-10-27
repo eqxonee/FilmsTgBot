@@ -66,7 +66,7 @@ public class Film {
                 ", Название='" + name + '\'' +
                 ", Длительность=" + timeLength +
                 ", Актуальная ссылка='" + linkFilm + '\'' +
-                ", Дата выхода фильма=" + releaseFilm
+                ", Дата выхода фильма=" + releaseFilm + '\n'
                 ;
     }
 }

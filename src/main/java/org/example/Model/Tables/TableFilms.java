@@ -20,7 +20,7 @@ public class TableFilms {
         public void addNew(Film film) throws SQLException {
             Statement statement = connection.createStatement();
 
-            String insertQuery = String.format("INSERT INTO films (chat_id, name, time_length, link_film, release_year, style_film_id) VALUES (%d,%f,%d,%f,%d,%d)", film.getChatId(), film.getName(), film.getTimeLength(), film.getLinkFilm(), film.getReleaseFilm(), film.getStyleFilmToId());
+            String insertQuery = String.format("INSERT INTO films (name, time_length, link_film, release_year, style_film_id) VALUES ('%s',%d,'%s',%d,%d)", film.getName(), film.getTimeLength(), film.getLinkFilm(), film.getReleaseFilm(), film.getStyleFilmToId());
             //Изменить Length в БД
             statement.executeUpdate(insertQuery);
 

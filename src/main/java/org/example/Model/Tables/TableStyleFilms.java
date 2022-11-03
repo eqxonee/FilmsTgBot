@@ -28,7 +28,7 @@ public class TableStyleFilms {
         while (resultSet.next()) {
 
             int id = resultSet.getInt("id");
-            String styleFilm = resultSet.getString("styleFilm");
+            String styleFilm = resultSet.getString("style_film");
 
             styleFilms.add(new StyleFilm(id, styleFilm));
         }

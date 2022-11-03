@@ -60,6 +60,34 @@ public class Film {
         return chatId;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setChatId(long chatId) {
+        this.chatId = chatId;
+    }
+
+    public void setTimeLength(int timeLength) {
+        this.timeLength = timeLength;
+    }
+
+    public void setLinkFilm(String linkFilm) {
+        this.linkFilm = linkFilm;
+    }
+
+    public void setReleaseFilm(int releaseFilm) {
+        this.releaseFilm = releaseFilm;
+    }
+
+    public void setStyleFilmToId(int styleFilmToId) {
+        this.styleFilmToId = styleFilmToId;
+    }
+
     @Override
     public String toString() {
         return "" +

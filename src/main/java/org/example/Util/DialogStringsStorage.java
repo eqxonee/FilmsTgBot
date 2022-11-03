@@ -11,5 +11,16 @@ public class DialogStringsStorage {
     public final static String CommandStyleFilmsComedy = "Категория комедии: ";
     public final static String CommandStyleFilmsMilitary = "Категория боевики: ";
 
+    public final static String CommandAddNameFilm = "Введите название фильма: ";
+    public final static String CommandReleaseFilm = "Введите год выпуска фильма: ";
+    public final static String CommandDurationFilm = "Введите длительность фильма: ";
+    public final static String CommandLinkFilm = "Введите ссылку на фильм: ";
+    public final static String CommandStyleFilm = "Выберите жанр";
+    public final static String CommandEndFilm = "Фильм успешно добавлен. ВВедите /start для возврата в главное меню";
+
+
+
+
+
 
 }

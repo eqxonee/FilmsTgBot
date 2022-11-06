@@ -27,19 +27,22 @@ public class TableFilms {
             statement.close();
         }
 
-    public Film getByFilmById(String name) throws SQLException {
+    public Film getByFilmByName(String name) throws SQLException {
         Film film = null;
 
         Statement statement = connection.createStatement();
 
-        String selectQuery = String.format("SELECT * FROM films WHERE name = %f ORDER BY id ASC", name);
+        String selectQuery = String.format("SELECT * FROM films WHERE name = '%s'", name);
 
         ResultSet resultSet = statement.executeQuery(selectQuery);
 
-        long chatId = resultSet.getLong("chat_id");
-        String findName = resultSet.getString("name");
+        if(resultSet.next()) {
 
-        film = new Film(chatId, name);
+            long chatId = resultSet.getLong("id");
+            String nameFilm = resultSet.getString("name");
+
+            film = new Film(chatId, nameFilm);
+        }
 
         resultSet.close();
 
@@ -48,9 +51,9 @@ public class TableFilms {
         return film;
     }
 
-    public void deleteByFilmId(int id) throws SQLException {
+    public void deleteByFilmName(String name) throws SQLException {
         Statement statement = connection.createStatement();
-        String deleteQuery = String.format("DELETE FROM films WHERE id = %d", id);
+        String deleteQuery = String.format("DELETE FROM films WHERE name = '%s'", name);
 
         statement.executeUpdate(deleteQuery);
         statement.close();

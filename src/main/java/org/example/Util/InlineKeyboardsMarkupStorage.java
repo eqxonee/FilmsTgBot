@@ -47,6 +47,7 @@ public class InlineKeyboardsMarkupStorage {
 
         return replyKeyboardMarkup;
     }
+
     public static InlineKeyboardMarkup GetInlineKeyboardMarkupMenuMainStylesFilm() {
         List<List<InlineKeyboardButton>> keyboard = new ArrayList<>();
 
@@ -95,5 +96,31 @@ public class InlineKeyboardsMarkupStorage {
         replyKeyboardMarkup.setKeyboard(keyboard);
 
         return replyKeyboardMarkup;
-}
+    }
+
+    public static InlineKeyboardMarkup GetInlineKeyboardMarkupMenuMainDeleteFilm() {
+        List<List<InlineKeyboardButton>> keyboard = new ArrayList<>();
+
+        List<InlineKeyboardButton> row;
+        InlineKeyboardButton button;
+
+        row = new ArrayList<>();
+        button = new InlineKeyboardButton();
+        button.setText(ButtonsStorage.ButtonDeleteFilmFromMenuMainYes.getName());
+        button.setCallbackData(ButtonsStorage.ButtonDeleteFilmFromMenuMainYes.getCallBackData());
+        row.add(button);
+        keyboard.add(row);
+
+        row = new ArrayList<>();
+        button = new InlineKeyboardButton();
+        button.setText(ButtonsStorage.ButtonDeleteFilmFromMenuMainNo.getName());
+        button.setCallbackData(ButtonsStorage.ButtonDeleteFilmFromMenuMainNo.getCallBackData());
+        row.add(button);
+        keyboard.add(row);
+
+        InlineKeyboardMarkup replyKeyboardMarkup = new InlineKeyboardMarkup();
+        replyKeyboardMarkup.setKeyboard(keyboard);
+
+        return replyKeyboardMarkup;
+    }
 }

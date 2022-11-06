@@ -38,4 +38,27 @@ public class TableStyleFilms {
 
         return styleFilms;
     }
+
+    public StyleFilm getByName(String name) throws SQLException {
+        StyleFilm styleFilm = null;
+
+        Statement statement = connection.createStatement();
+
+        String selectQuery = String.format("SELECT * FROM style_films WHERE style_film = '%s'",name);
+
+        ResultSet resultSet = statement.executeQuery(selectQuery);
+
+        if (resultSet.next()) {
+
+            int id = resultSet.getInt("id");
+            String style = resultSet.getString("style_film");
+
+            styleFilm = new StyleFilm(id, style);
+        }
+        resultSet.close();
+
+        statement.close();
+
+        return styleFilm;
+    }
 }

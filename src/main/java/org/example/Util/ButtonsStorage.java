@@ -30,4 +30,7 @@ public class ButtonsStorage {
     public final static Button ButtonStylesFilmsFromMenuMainComedy = new Button("Комедии", "ButtonStylesFilmsFromMenuMainComedy");
     public final static Button ButtonStylesFilmsFromMenuMainMilitary = new Button("Боевики", "ButtonStylesFilmsFromMenuMainMilitary");
 
+    public final static Button ButtonDeleteFilmFromMenuMainYes = new Button("Да", "ButtonDeleteFilmFromMenuMainYes");
+    public final static Button ButtonDeleteFilmFromMenuMainNo = new Button("Нет", "ButtonDeleteFilmFromMenuMainNo");
+
 }

@@ -5,6 +5,7 @@ import org.example.Model.DbManager;
 import org.example.Model.Entities.Film;
 import org.example.Model.Entities.StyleFilm;
 import org.example.Model.Tables.TableFilms;
+import org.example.Statemachine.DataStorage;
 import org.example.Statemachine.TransmittedData;
 import org.example.Util.ButtonsStorage;
 import org.example.Util.DialogStringsStorage;
@@ -60,7 +61,17 @@ public class MainMenuService {
 
             return message;
         } else if (callBackData.equals(ButtonsStorage.ButtonDeleteFilmsInMenuMain.getCallBackData())) {
-            message.setText("Вы нажали удалить фильм");
+            StringBuilder stringBuilder = new StringBuilder();
+            List<StyleFilm> filmList = DbManager.getInstance().getTableStyleFilms().getAll();
+            for (int i = 0; i < filmList.size(); i++) {
+                int id = filmList.get(i).getId();
+                String style = filmList.get(i).getStyleFilm();
+                stringBuilder.append(id).append(". ").append(style).append("\n");
+            }
+            message.setText(DialogStringsStorage.CommandDeleteFilm +"\n" + stringBuilder);
+
+            transmittedData.setState(WaitingClickOnInlineButtonInMenuDeleteFilm);
+
             return message;
         } else if (callBackData.equals(ButtonsStorage.ButtonFindFilmsInMenuMain.getCallBackData())) {
             message.setText("Вы нажали поиск фильма");
@@ -228,7 +239,65 @@ public class MainMenuService {
         return message;
     }
 
+    public SendMessage processClickOnInlineButtonInMenuDeleteFilm(String receivedText, TransmittedData transmittedData) throws Exception{
+
+        SendMessage message = new SendMessage();
+        message.setChatId(transmittedData.getChatId());
+
+        StyleFilm styleFilm = DbManager.getInstance().getTableStyleFilms().getByName(receivedText);
+        if(styleFilm == null){
+            message.setText("Жанра не существует");
+            return message;
+        }else {
+            transmittedData.getDataStorage().add("styleFilm",styleFilm);
+            message.setText("Все гуд,Введите название фильма");
+            transmittedData.setState(WaitingClickOnInlineButtonInMenuChooseFromDeleteFilm);
+            return message;
+        }
+
     }
+
+    public SendMessage processClickOnInlineButtonInMenuChooseFromDeleteFilm(String receivedText, TransmittedData transmittedData) throws Exception{
+        SendMessage message = new SendMessage();
+        message.setChatId(transmittedData.getChatId());
+        //сделать поиск фильма по названию
+        //если фильм не найден = нулл
+        //если найден - перевести на след стейт , сохранить фильм в дата сторадж и вывести клаву да нет
+        Film film = DbManager.getInstance().getTableFilms().getByFilmByName(receivedText);
+        if(film == null){
+            message.setText("Фильм не найден");
+            return message;
+        }else {
+            transmittedData.getDataStorage().add("film",film);
+            message.setText(DialogStringsStorage.CommandDeleteFilmAnswer);
+            message.setReplyMarkup(InlineKeyboardsMarkupStorage.GetInlineKeyboardMarkupMenuMainDeleteFilm());
+            transmittedData.setState(WaitingClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess);
+            return message;
+        }
+
+    }
+
+    public SendMessage processClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess(String callBackData, TransmittedData transmittedData) throws Exception{
+        SendMessage message = new SendMessage();
+        message.setChatId(transmittedData.getChatId());
+
+        Film film = (Film) transmittedData.getDataStorage().get("film");
+
+        if (callBackData.equals(ButtonsStorage.ButtonDeleteFilmFromMenuMainYes.getCallBackData())){
+            DbManager.getInstance().getTableFilms().deleteByFilmName(film.getName());
+            message.setText(DialogStringsStorage.CommandDeleteFilmSuccess);
+            return message;
+        }else {
+            message.setText("Вы отменили удаление фильма");
+            transmittedData.setState(WaitingInputStartFromMenu);
+            return message;
+        }
+
+
+    }
+
+
+}
 
 
 

@@ -29,6 +29,9 @@ public class ServiceManager {
         methods.put(State.DurationFilm,mainMenuService::processDurationFilm);
         methods.put(State.FilmStyle,mainMenuService::processStyleFilm);
         methods.put(State.LinkFilm,mainMenuService::processLinkFilm);
+        methods.put(State.WaitingClickOnInlineButtonInMenuDeleteFilm,mainMenuService::processClickOnInlineButtonInMenuDeleteFilm);
+        methods.put(State.WaitingClickOnInlineButtonInMenuChooseFromDeleteFilm,mainMenuService::processClickOnInlineButtonInMenuChooseFromDeleteFilm);
+        methods.put(State.WaitingClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess,mainMenuService::processClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess);
 
 
     }

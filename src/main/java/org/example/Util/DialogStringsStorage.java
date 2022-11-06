@@ -16,7 +16,11 @@ public class DialogStringsStorage {
     public final static String CommandDurationFilm = "Введите длительность фильма: ";
     public final static String CommandLinkFilm = "Введите ссылку на фильм: ";
     public final static String CommandStyleFilm = "Выберите жанр";
-    public final static String CommandEndFilm = "Фильм успешно добавлен. ВВедите /start для возврата в главное меню";
+    public final static String CommandEndFilm = "Фильм успешно добавлен. Введите /start для возврата в главное меню";
+
+    public final static String CommandDeleteFilm = "Напишите текстом жанр для удаления фильма: ";
+    public final static String CommandDeleteFilmAnswer = "такой фильм существует, вы действительно хотите удалить фильм? ";
+    public final static String CommandDeleteFilmSuccess = "Фильм успешно удален. Введите /start для возврата в главное меню";
 
 
 

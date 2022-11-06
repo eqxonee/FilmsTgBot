@@ -286,6 +286,7 @@ public class MainMenuService {
         if (callBackData.equals(ButtonsStorage.ButtonDeleteFilmFromMenuMainYes.getCallBackData())){
             DbManager.getInstance().getTableFilms().deleteByFilmName(film.getName());
             message.setText(DialogStringsStorage.CommandDeleteFilmSuccess);
+            transmittedData.setState(WaitingInputStartFromMenu);
             return message;
         }else {
             message.setText("Вы отменили удаление фильма");

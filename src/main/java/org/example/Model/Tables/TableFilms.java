@@ -59,7 +59,7 @@ public class TableFilms {
         statement.close();
     }
 
-    public List<StyleFilm> getAllByChatId(long chatId) throws SQLException {
+    public List<StyleFilm> getFilmByName(long chatId) throws SQLException {
 
         List<StyleFilm> films = new ArrayList<>();
 
@@ -197,5 +197,29 @@ public class TableFilms {
         resultSet.close();
         statement.close();
         return films;
+    }
+
+    public Film getLinkFilm(String link) throws SQLException {
+        Film film = null;
+
+        Statement statement = connection.createStatement();
+
+        String selectQuery = String.format("SELECT * FROM films WHERE link_film = '%s'",link);
+
+        ResultSet resultSet = statement.executeQuery(selectQuery);
+
+        if(resultSet.next()) {
+
+            long chatId = resultSet.getLong("id");
+            String linkFilm = resultSet.getString("link_film");
+
+            film = new Film(chatId, linkFilm);
+        }
+
+        resultSet.close();
+
+        statement.close();
+
+        return film;
     }
 }

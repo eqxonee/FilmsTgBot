@@ -73,7 +73,9 @@ public class MainMenuService {
 
             return message;
         } else if (callBackData.equals(ButtonsStorage.ButtonFindFilmsInMenuMain.getCallBackData())) {
-            message.setText("Вы нажали поиск фильма");
+            message.setText("Введите название фильма");
+
+            transmittedData.setState(WaitingClickOnInlineButtonInMenuFindFilm);
             return message;
         }
 

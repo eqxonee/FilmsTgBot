@@ -12,7 +12,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import static org.example.Statemachine.State.*;
 import static org.example.Statemachine.State.WaitingInputStartFromMenu;
 
-public class MainMenuDeleteFilms {
+public class MainMenuDeleteFilm {
 
     public SendMessage processClickOnInlineButtonInMenuDeleteFilm(String receivedText, TransmittedData transmittedData) throws Exception{
 
@@ -41,6 +41,7 @@ public class MainMenuDeleteFilms {
         Film film = DbManager.getInstance().getTableFilms().getByFilmByName(receivedText);
         if(film == null){
             message.setText("Фильм не найден");
+            transmittedData.setState(WaitingInputStartFromMenu);
             return message;
         }else {
             transmittedData.getDataStorage().add("film",film);

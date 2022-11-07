@@ -13,16 +13,19 @@ public class ServiceManager {
     private Map<State,Service> methods;
     private MainMenuService mainMenuService;
     private MainMenuListFilms mainMenuListFilms;
-    private MainMenuAddFilms mainMenuAddFilms;
-    private MainMenuDeleteFilms mainMenuDeleteFilms;
+    private MainMenuAddFilm mainMenuAddFilms;
+    private MainMenuDeleteFilm mainMenuDeleteFilms;
+    private MainMenuSearchFilm mainMenuSearchFilm;
+
     private StaticService staticService;
 
     public ServiceManager() {
         methods = new HashMap<>();
         mainMenuService = new MainMenuService();
         mainMenuListFilms = new MainMenuListFilms();
-        mainMenuAddFilms = new MainMenuAddFilms();
-        mainMenuDeleteFilms = new MainMenuDeleteFilms();
+        mainMenuAddFilms = new MainMenuAddFilm();
+        mainMenuDeleteFilms = new MainMenuDeleteFilm();
+        mainMenuSearchFilm = new MainMenuSearchFilm();
         staticService = new StaticService();
 
         methods.put(State.WaitingCommandStart,mainMenuService::processCommandStart);
@@ -37,7 +40,7 @@ public class ServiceManager {
         methods.put(State.WaitingClickOnInlineButtonInMenuDeleteFilm,mainMenuDeleteFilms::processClickOnInlineButtonInMenuDeleteFilm);
         methods.put(State.WaitingClickOnInlineButtonInMenuChooseFromDeleteFilm,mainMenuDeleteFilms::processClickOnInlineButtonInMenuChooseFromDeleteFilm);
         methods.put(State.WaitingClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess,mainMenuDeleteFilms::processClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess);
-
+        methods.put(State.WaitingClickOnInlineButtonInMenuFindFilm,mainMenuSearchFilm::processClickOnInlineButtonInMenuFindFilm);
 
     }
 

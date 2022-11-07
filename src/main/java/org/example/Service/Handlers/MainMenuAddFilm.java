@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.example.Statemachine.State.*;
 
-public class MainMenuAddFilms {
+public class MainMenuAddFilm {
 
     public SendMessage processNameFilm(String receivedText, TransmittedData transmittedData) throws Exception{
         SendMessage message = new SendMessage();

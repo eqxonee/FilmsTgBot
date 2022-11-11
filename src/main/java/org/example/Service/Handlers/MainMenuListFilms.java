@@ -26,7 +26,7 @@ public class MainMenuListFilms {
 
             String filmsAsText = stringBuilder.toString();
 
-            message.setText(DialogStringsStorage.CommandStyleFilmsHorror + "\n" + filmsAsText);
+            message.setText(DialogStringsStorage.CommandStyleFilmsHorror + "\n" + filmsAsText + "\n" + DialogStringsStorage.CommandStyleFilmsBack);
             transmittedData.setState(WaitingInputStartFromMenu);
 
             return message;
@@ -42,7 +42,7 @@ public class MainMenuListFilms {
 
                 String filmsAsText = stringBuilder.toString();
 
-                message.setText(DialogStringsStorage.CommandStyleFilmsMystic + "\n" + filmsAsText);
+                message.setText(DialogStringsStorage.CommandStyleFilmsMystic + "\n" + filmsAsText + "\n" + DialogStringsStorage.CommandStyleFilmsBack);
                 transmittedData.setState(WaitingInputStartFromMenu);
                 return message;
             }
@@ -58,7 +58,7 @@ public class MainMenuListFilms {
 
                 String filmsAsText = stringBuilder.toString();
 
-                message.setText(DialogStringsStorage.CommandStyleFilmsHistory + "\n" + filmsAsText);
+                message.setText(DialogStringsStorage.CommandStyleFilmsHistory + "\n" + filmsAsText + "\n" + DialogStringsStorage.CommandStyleFilmsBack);
                 transmittedData.setState(WaitingInputStartFromMenu);
                 return message;
             }
@@ -73,7 +73,7 @@ public class MainMenuListFilms {
 
                 String filmsAsText = stringBuilder.toString();
 
-                message.setText(DialogStringsStorage.CommandStyleFilmsComedy + "\n" + filmsAsText);
+                message.setText(DialogStringsStorage.CommandStyleFilmsComedy + "\n" + filmsAsText + "\n" + DialogStringsStorage.CommandStyleFilmsBack);
                 transmittedData.setState(WaitingInputStartFromMenu);
                 return message;
             }
@@ -88,7 +88,7 @@ public class MainMenuListFilms {
 
                 String filmsAsText = stringBuilder.toString();
 
-                message.setText(DialogStringsStorage.CommandStyleFilmsMilitary + "\n" + filmsAsText);
+                message.setText(DialogStringsStorage.CommandStyleFilmsMilitary + "\n" + filmsAsText + "\n" + DialogStringsStorage.CommandStyleFilmsBack);
                 transmittedData.setState(WaitingInputStartFromMenu);
                 return message;
             }

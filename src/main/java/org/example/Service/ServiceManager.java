@@ -32,14 +32,17 @@ public class ServiceManager {
         methods.put(State.WaitingClickOnInlineButtonInMenuMain,mainMenuService::processClickOnInlineButtonInMenuMain);
         methods.put(State.WaitingClickOnInlineButtonInMenuChooseFilm,mainMenuListFilms::processClickOnInlineButtonStylesFilms);
         methods.put(State.WaitingInputStartFromMenu,mainMenuService::processCommandStart);
+
         methods.put(State.NameFilm,mainMenuAddFilms::processNameFilm);
         methods.put(State.ReleaseFilm,mainMenuAddFilms::processReleaseFilm);
         methods.put(State.DurationFilm,mainMenuAddFilms::processDurationFilm);
         methods.put(State.FilmStyle,mainMenuAddFilms::processStyleFilm);
         methods.put(State.LinkFilm,mainMenuAddFilms::processLinkFilm);
+
         methods.put(State.WaitingClickOnInlineButtonInMenuDeleteFilm,mainMenuDeleteFilms::processClickOnInlineButtonInMenuDeleteFilm);
         methods.put(State.WaitingClickOnInlineButtonInMenuChooseFromDeleteFilm,mainMenuDeleteFilms::processClickOnInlineButtonInMenuChooseFromDeleteFilm);
         methods.put(State.WaitingClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess,mainMenuDeleteFilms::processClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess);
+
         methods.put(State.WaitingClickOnInlineButtonInMenuFindFilm,mainMenuSearchFilm::processClickOnInlineButtonInMenuFindFilm);
 
     }

@@ -21,11 +21,11 @@ public class MainMenuDeleteFilm {
 
         StyleFilm styleFilm = DbManager.getInstance().getTableStyleFilms().getByName(receivedText);
         if(styleFilm == null){
-            message.setText("Жанра не существует");
+            message.setText(DialogStringsStorage.CommandGenreFilm);
             return message;
         }else {
             transmittedData.getDataStorage().add("styleFilm",styleFilm);
-            message.setText("Все гуд,Введите название фильма");
+            message.setText(DialogStringsStorage.CommandGenreFilmYes);
             transmittedData.setState(WaitingClickOnInlineButtonInMenuChooseFromDeleteFilm);
             return message;
         }
@@ -38,9 +38,9 @@ public class MainMenuDeleteFilm {
         //сделать поиск фильма по названию
         //если фильм не найден = нулл
         //если найден - перевести на след стейт , сохранить фильм в дата сторадж и вывести клаву да нет
-        Film film = DbManager.getInstance().getTableFilms().getByFilmByName(receivedText);
+        Film film = DbManager.getInstance().getTableFilms().getFilmByName(receivedText);
         if(film == null){
-            message.setText("Фильм не найден");
+            message.setText(DialogStringsStorage.CommandFindFilm);
             transmittedData.setState(WaitingInputStartFromMenu);
             return message;
         }else {
@@ -65,7 +65,7 @@ public class MainMenuDeleteFilm {
             transmittedData.setState(WaitingInputStartFromMenu);
             return message;
         }else {
-            message.setText("Вы отменили удаление фильма");
+            message.setText(DialogStringsStorage.CommandFilmCancel);
             transmittedData.setState(WaitingInputStartFromMenu);
             return message;
         }

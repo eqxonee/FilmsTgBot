@@ -2,10 +2,7 @@ package org.example.Service.Handlers;
 
 
 import org.example.Model.DbManager;
-import org.example.Model.Entities.Film;
 import org.example.Model.Entities.StyleFilm;
-import org.example.Model.Tables.TableFilms;
-import org.example.Statemachine.DataStorage;
 import org.example.Statemachine.TransmittedData;
 import org.example.Util.ButtonsStorage;
 import org.example.Util.DialogStringsStorage;
@@ -73,7 +70,7 @@ public class MainMenuService {
 
             return message;
         } else if (callBackData.equals(ButtonsStorage.ButtonFindFilmsInMenuMain.getCallBackData())) {
-            message.setText("Введите название фильма");
+            message.setText(DialogStringsStorage.CommandAddNameFilm);
 
             transmittedData.setState(WaitingClickOnInlineButtonInMenuFindFilm);
             return message;

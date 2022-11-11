@@ -1,7 +1,6 @@
 package org.example.Model.Tables;
 
 import org.example.Model.Entities.Film;
-import org.example.Model.Entities.StyleFilm;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -27,7 +26,7 @@ public class TableFilms {
             statement.close();
         }
 
-    public Film getByFilmByName(String name) throws SQLException {
+    public Film getFilmByName(String name) throws SQLException {
         Film film = null;
 
         Statement statement = connection.createStatement();
@@ -38,10 +37,12 @@ public class TableFilms {
 
         if(resultSet.next()) {
 
-            long chatId = resultSet.getLong("id");
             String nameFilm = resultSet.getString("name");
+            int timeLength = resultSet.getInt("time_length");
+            String linkFilm = resultSet.getString("link_film");
+            int releaseFilm = resultSet.getInt("release_year");   //Вернуть все параметры фильма
 
-            film = new Film(chatId, nameFilm);
+            film = new Film(nameFilm,timeLength,linkFilm,releaseFilm);
         }
 
         resultSet.close();
@@ -57,31 +58,6 @@ public class TableFilms {
 
         statement.executeUpdate(deleteQuery);
         statement.close();
-    }
-
-    public List<StyleFilm> getFilmByName(long chatId) throws SQLException {
-
-        List<StyleFilm> films = new ArrayList<>();
-
-        Statement statement = connection.createStatement();
-
-        String selectQuery = String.format("SELECT * FROM style_films WHERE id = %d ORDER BY id ASC", chatId);
-
-        ResultSet resultSet = statement.executeQuery(selectQuery);
-
-        while (resultSet.next()) {
-            int id = resultSet.getInt("id");
-            String styleFilms = resultSet.getString("style_film");
-
-
-            films.add(new StyleFilm(id, styleFilms));
-        }
-
-        resultSet.close();
-
-        statement.close();
-
-        return films;
     }
 
     public List<Film> getAllHorror() throws SQLException {
@@ -199,27 +175,4 @@ public class TableFilms {
         return films;
     }
 
-    public Film getLinkFilm(String link) throws SQLException {
-        Film film = null;
-
-        Statement statement = connection.createStatement();
-
-        String selectQuery = String.format("SELECT * FROM films WHERE link_film = '%s'",link);
-
-        ResultSet resultSet = statement.executeQuery(selectQuery);
-
-        if(resultSet.next()) {
-
-            long chatId = resultSet.getLong("id");
-            String linkFilm = resultSet.getString("link_film");
-
-            film = new Film(chatId, linkFilm);
-        }
-
-        resultSet.close();
-
-        statement.close();
-
-        return film;
-    }
 }

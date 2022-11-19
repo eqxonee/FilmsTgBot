@@ -1,7 +1,10 @@
 package org.example.Statemachine;
 
+import org.example.Bot.BotInitializer;
 import org.example.Service.ServiceManager;
 import org.example.Util.SystemStringsStorage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -14,6 +17,7 @@ public class ChatRouter {
 
     private Map<Long,TransmittedData> chats;
     private ServiceManager serviceManager;
+    private static final Logger logger = LoggerFactory.getLogger(ChatRouter.class);
 
     public ChatRouter() {
         chats = new HashMap<>();
@@ -27,6 +31,7 @@ public class ChatRouter {
         }
 
         TransmittedData transmittedData = chats.get(chatId);
+        logger.info(String.format("ROUTE: %d %s", chatId, transmittedData.getState()));
 
         if(textData.equals(SystemStringsStorage.CommandReset) && transmittedData.getState() != State.WaitingCommandStart){
             return serviceManager.getStaticService().processCommandReset(transmittedData);

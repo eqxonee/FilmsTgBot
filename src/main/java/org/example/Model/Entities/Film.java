@@ -91,10 +91,10 @@ public class Film {
     @Override
     public String toString() {
         return "" +
-                ", Название='" + name + '\'' +
-                ", Длительность=" + timeLength +
-                ", Актуальная ссылка='" + linkFilm + '\'' +
-                ", Дата выхода фильма=" + releaseFilm + '\n'
+                "Название=" + name + '\n' +
+                "Длительность=" + timeLength + '\n' +
+                "Актуальная ссылка=" + linkFilm + '\n' +
+                "Дата выхода фильма=" + releaseFilm + '\n'
                 ;
     }
 }

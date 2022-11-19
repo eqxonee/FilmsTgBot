@@ -52,7 +52,6 @@ public class MainMenuDeleteFilm {
         }
 
     }
-
     public SendMessage processClickOnInlineButtonInMenuChooseFromDeleteFilmSuccess(String callBackData, TransmittedData transmittedData) throws Exception{
         SendMessage message = new SendMessage();
         message.setChatId(transmittedData.getChatId());

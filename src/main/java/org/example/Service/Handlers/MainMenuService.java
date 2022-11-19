@@ -57,6 +57,7 @@ public class MainMenuService {
 
             return message;
         } else if (callBackData.equals(ButtonsStorage.ButtonDeleteFilmsInMenuMain.getCallBackData())) {
+            //message.setReplyMarkup(InlineKeyboardsMarkupStorage.GetInlineKeyboardMarkupMenuMainStylesFilm());
             StringBuilder stringBuilder = new StringBuilder();
             List<StyleFilm> filmList = DbManager.getInstance().getTableStyleFilms().getAll();
             for (int i = 0; i < filmList.size(); i++) {

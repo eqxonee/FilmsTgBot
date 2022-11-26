@@ -60,17 +60,7 @@ public class Film {
         return chatId;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setChatId(long chatId) {
-        this.chatId = chatId;
-    }
 
     public void setTimeLength(int timeLength) {
         this.timeLength = timeLength;

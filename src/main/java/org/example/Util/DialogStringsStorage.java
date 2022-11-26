@@ -33,6 +33,8 @@ public class DialogStringsStorage {
     public final static String CommandFindFilm = "Фильм не найден";
     public final static String CommandFilmCancel = "Вы отменили удаление фильма";
 
+    public final static String CommandTopFilms = "ТОП 10 фильмов по мнению сайта - kinonews";
+
 
 
 

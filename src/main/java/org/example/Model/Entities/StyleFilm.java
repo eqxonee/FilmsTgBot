@@ -18,7 +18,4 @@ public class StyleFilm {
         return styleFilm;
     }
 
-    public void setStyleFilm(String styleFilm) {
-        this.styleFilm = styleFilm;
-    }
 }

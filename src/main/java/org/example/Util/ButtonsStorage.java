@@ -21,6 +21,7 @@ public class ButtonsStorage {
     }
 
     public final static Button ButtonAllFilmsInMenuMain = new Button("Список фильмов", "ButtonMyCardsInMenuMain");
+    public final static Button ButtonTopFilmsFromMenuMain = new Button("Топ фильмов", "ButtonTopFilmsFromMenuMain");
     public final static Button ButtonAddFilmsInMenuMain = new Button("Добавить фильм", "ButtonTransferMoneyInMenuMain");
     public final static Button ButtonDeleteFilmsInMenuMain = new Button("Удалить фильм", "ButtonDeleteFilmsInMenuMain");
     public final static Button ButtonFindFilmsInMenuMain = new Button("Поиск фильма", "ButtonFindFilmsInMenuMain");
@@ -32,5 +33,6 @@ public class ButtonsStorage {
 
     public final static Button ButtonDeleteFilmFromMenuMainYes = new Button("Да", "ButtonDeleteFilmFromMenuMainYes");
     public final static Button ButtonDeleteFilmFromMenuMainNo = new Button("Нет", "ButtonDeleteFilmFromMenuMainNo");
+
 
 }

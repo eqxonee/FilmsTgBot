@@ -11,7 +11,7 @@ import java.util.List;
 
 import static org.example.Statemachine.State.WaitingInputStartFromMenu;
 
-public class MainMenuListFilms {
+public class  MainMenuListFilms {
 
     public SendMessage processClickOnInlineButtonStylesFilms(String callBackData, TransmittedData transmittedData) throws Exception {
         SendMessage message = new SendMessage();

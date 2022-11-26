@@ -21,7 +21,7 @@ public class MainMenuSearchFilm {
 
         if(film == null){
             message.setText(DialogStringsStorage.CommandNotFindFilm);
-            transmittedData.setState(WaitingInputStartFromMenu);
+            //transmittedData.setState(WaitingInputStartFromMenu);
             return message;
         }else {
             message.setText(DialogStringsStorage.CommandYesFindFilm + "\n" + film.getName() + "\n" + film.getLinkFilm());

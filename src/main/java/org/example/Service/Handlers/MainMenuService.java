@@ -3,11 +3,13 @@ package org.example.Service.Handlers;
 
 import org.example.Model.DbManager;
 import org.example.Model.Entities.StyleFilm;
+import org.example.Statemachine.State;
 import org.example.Statemachine.TransmittedData;
 import org.example.Util.ButtonsStorage;
 import org.example.Util.DialogStringsStorage;
 import org.example.Util.InlineKeyboardsMarkupStorage;
 import org.example.Util.SystemStringsStorage;
+import org.example.parser.TopFilmsParser;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 
 
@@ -17,6 +19,11 @@ import static org.example.Statemachine.State.*;
 
 
 public class MainMenuService {
+    private TopFilmsParser topFilmsParser;
+
+    public MainMenuService() {
+        topFilmsParser = new TopFilmsParser();
+    }
 
     public SendMessage processCommandStart(String command, TransmittedData transmittedData) {
 
@@ -49,6 +56,12 @@ public class MainMenuService {
             transmittedData.setState(WaitingClickOnInlineButtonInMenuChooseFilm);
 
             return message;
+        } else if (callBackData.equals(ButtonsStorage.ButtonTopFilmsFromMenuMain.getCallBackData())) {
+            //TODO ПАРСЕР
+            message.setText(DialogStringsStorage.CommandTopFilms);
+
+            transmittedData.setState(State.WaitingCommandStart);
+
 
         } else if (callBackData.equals(ButtonsStorage.ButtonAddFilmsInMenuMain.getCallBackData())) {
             message.setText(DialogStringsStorage.CommandAddNameFilm);
@@ -65,7 +78,7 @@ public class MainMenuService {
                 String style = filmList.get(i).getStyleFilm();
                 stringBuilder.append(id).append(". ").append(style).append("\n");
             }
-            message.setText(DialogStringsStorage.CommandDeleteFilm +"\n" + stringBuilder);
+            message.setText(DialogStringsStorage.CommandDeleteFilm + "\n" + stringBuilder);
 
             transmittedData.setState(WaitingClickOnInlineButtonInMenuDeleteFilm);
 

@@ -1,0 +1,299 @@
+2022-11-24 22:07:18,216	INFO	Input: :1139166057:1416:/start
+2022-11-24 22:07:18,216	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:07:18,227	INFO	OUTPUT: 1139166057:1416
+text=Выберите действие
+keyboard=Список фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 22:07:18,227	INFO	Error: :1139166057:1416:/start
+2022-11-24 22:08:06,200	INFO	Input: :1139166057:1418:/start
+2022-11-24 22:08:06,201	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:08:06,208	INFO	OUTPUT: 1139166057:1418
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 22:08:06,208	INFO	Error: :1139166057:1418:/start
+2022-11-24 22:09:04,246	INFO	Input: :1139166057:1419:ButtonTopFilmsFromMenuMain
+2022-11-24 22:09:04,246	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 22:18:39,806	INFO	Input: :1139166057:1420:/start
+2022-11-24 22:18:39,806	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:18:39,806	INFO	OUTPUT: 1139166057:1420
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 22:18:39,806	INFO	Error: :1139166057:1420:/start
+2022-11-24 22:18:45,468	INFO	Input: :1139166057:1422:/start
+2022-11-24 22:18:45,468	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 22:18:48,131	INFO	Input: :1139166057:1421:ButtonTopFilmsFromMenuMain
+2022-11-24 22:18:48,131	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 22:36:42,332	INFO	Input: :1139166057:1423:/start
+2022-11-24 22:36:42,333	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:37:44,176	INFO	Input: :1139166057:1424:/start
+2022-11-24 22:37:44,176	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:38:12,259	INFO	Input: :1139166057:1425:/start
+2022-11-24 22:38:12,260	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:40:06,525	INFO	Input: :1139166057:1426:/start
+2022-11-24 22:40:06,526	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:42:09,975	INFO	Input: :1139166057:1427:/start
+2022-11-24 22:42:09,975	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:45:07,965	INFO	Input: :1139166057:1428:/start
+2022-11-24 22:45:07,965	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:46:27,532	INFO	Input: :1139166057:1429:/start
+2022-11-24 22:46:27,535	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:47:26,302	INFO	Input: :1139166057:1430:/start
+2022-11-24 22:47:26,303	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:49:59,046	INFO	Input: :1139166057:1431:/start
+2022-11-24 22:49:59,046	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:50:17,135	INFO	Input: :1139166057:1432:/start
+2022-11-24 22:50:17,135	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:50:17,604	INFO	OUTPUT: 1139166057:1432
+text=null
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 22:50:17,604	INFO	Error: :1139166057:1432:/start
+2022-11-24 22:58:35,434	INFO	Input: :1139166057:1433:/start
+2022-11-24 22:58:35,434	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 22:58:36,064	INFO	OUTPUT: 1139166057:1433
+text=null
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 22:58:36,064	INFO	Error: :1139166057:1433:/start
+2022-11-24 23:01:38,821	INFO	Input: :1139166057:1434:/start
+2022-11-24 23:01:38,822	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:01:39,469	INFO	OUTPUT: 1139166057:1434
+text=null
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:01:39,469	INFO	Error: :1139166057:1434:/start
+2022-11-24 23:06:58,822	INFO	Input: :1139166057:1435:/start
+2022-11-24 23:06:58,823	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:06:58,824	INFO	OUTPUT: 1139166057:1435
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:06:58,825	INFO	Error: :1139166057:1435:/start
+2022-11-24 23:07:00,053	INFO	Input: :1139166057:1436:ButtonTopFilmsFromMenuMain
+2022-11-24 23:07:00,053	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:08:30,344	INFO	Input: :1139166057:1437:/start
+2022-11-24 23:08:30,345	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:08:30,346	INFO	OUTPUT: 1139166057:1437
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:08:30,346	INFO	Error: :1139166057:1437:/start
+2022-11-24 23:08:31,454	INFO	Input: :1139166057:1438:ButtonTopFilmsFromMenuMain
+2022-11-24 23:08:31,454	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:10:05,144	INFO	Input: :1139166057:1439:/start
+2022-11-24 23:10:05,144	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:10:05,144	INFO	OUTPUT: 1139166057:1439
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:10:05,144	INFO	Error: :1139166057:1439:/start
+2022-11-24 23:10:06,164	INFO	Input: :1139166057:1440:ButtonTopFilmsFromMenuMain
+2022-11-24 23:10:06,164	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:13:11,664	INFO	Input: :1139166057:1441:/start
+2022-11-24 23:13:11,665	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:13:11,666	INFO	OUTPUT: 1139166057:1441
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:13:11,666	INFO	Error: :1139166057:1441:/start
+2022-11-24 23:13:14,746	INFO	Input: :1139166057:1442:ButtonFindFilmsInMenuMain
+2022-11-24 23:13:14,746	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:13:14,746	INFO	OUTPUT: 1139166057:1442
+text=Введите название фильма: 
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:14,746	INFO	Error: :1139166057:1442:ButtonFindFilmsInMenuMain
+2022-11-24 23:13:16,804	INFO	Input: :1139166057:1444:ыва
+2022-11-24 23:13:16,804	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:17,004	INFO	OUTPUT: 1139166057:1444
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:17,004	INFO	Error: :1139166057:1444:ыва
+2022-11-24 23:13:18,867	INFO	Input: :1139166057:1446:фыв
+2022-11-24 23:13:18,867	INFO	ROUTE: 1139166057 WaitingInputStartFromMenu
+2022-11-24 23:13:18,867	INFO	OUTPUT: 1139166057:1446
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:18,868	INFO	Error: :1139166057:1446:фыв
+2022-11-24 23:13:22,243	INFO	Input: :1139166057:1448:пфыв
+2022-11-24 23:13:22,243	INFO	ROUTE: 1139166057 WaitingInputStartFromMenu
+2022-11-24 23:13:22,244	INFO	OUTPUT: 1139166057:1448
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:22,244	INFO	Error: :1139166057:1448:пфыв
+2022-11-24 23:13:51,102	INFO	Input: :1139166057:1450:/start
+2022-11-24 23:13:51,102	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:13:51,104	INFO	OUTPUT: 1139166057:1450
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:13:51,104	INFO	Error: :1139166057:1450:/start
+2022-11-24 23:13:52,546	INFO	Input: :1139166057:1451:ButtonFindFilmsInMenuMain
+2022-11-24 23:13:52,546	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:13:52,546	INFO	OUTPUT: 1139166057:1451
+text=Введите название фильма: 
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:52,546	INFO	Error: :1139166057:1451:ButtonFindFilmsInMenuMain
+2022-11-24 23:13:54,049	INFO	Input: :1139166057:1453:sad
+2022-11-24 23:13:54,049	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:54,232	INFO	OUTPUT: 1139166057:1453
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:54,232	INFO	Error: :1139166057:1453:sad
+2022-11-24 23:13:55,461	INFO	Input: :1139166057:1455:dfgs
+2022-11-24 23:13:55,462	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:55,471	INFO	OUTPUT: 1139166057:1455
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:55,471	INFO	Error: :1139166057:1455:dfgs
+2022-11-24 23:13:56,824	INFO	Input: :1139166057:1457:qwrfgadsf
+2022-11-24 23:13:56,824	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:56,834	INFO	OUTPUT: 1139166057:1457
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:56,834	INFO	Error: :1139166057:1457:qwrfgadsf
+2022-11-24 23:13:58,387	INFO	Input: :1139166057:1459:asdf
+2022-11-24 23:13:58,387	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:58,397	INFO	OUTPUT: 1139166057:1459
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:58,398	INFO	Error: :1139166057:1459:asdf
+2022-11-24 23:13:58,473	INFO	Input: :1139166057:1460:as
+2022-11-24 23:13:58,473	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:58,484	INFO	OUTPUT: 1139166057:1460
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:58,484	INFO	Error: :1139166057:1460:as
+2022-11-24 23:13:58,562	INFO	Input: :1139166057:1462:fg
+2022-11-24 23:13:58,562	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:58,572	INFO	OUTPUT: 1139166057:1462
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:58,572	INFO	Error: :1139166057:1462:fg
+2022-11-24 23:13:58,661	INFO	Input: :1139166057:1464:f
+2022-11-24 23:13:58,661	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:58,670	INFO	OUTPUT: 1139166057:1464
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:58,670	INFO	Error: :1139166057:1464:f
+2022-11-24 23:13:58,755	INFO	Input: :1139166057:1467:as
+2022-11-24 23:13:58,755	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:13:58,765	INFO	OUTPUT: 1139166057:1467
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:13:58,765	INFO	Error: :1139166057:1467:as
+2022-11-24 23:14:02,417	INFO	Input: :1139166057:1469:/start
+2022-11-24 23:14:02,417	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuFindFilm
+2022-11-24 23:14:02,427	INFO	OUTPUT: 1139166057:1469
+text=Такой фильм не найден
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:14:02,427	INFO	Error: :1139166057:1469:/start
+2022-11-24 23:16:39,884	INFO	Input: :1139166057:1471:/start
+2022-11-24 23:16:39,884	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:16:39,884	INFO	OUTPUT: 1139166057:1471
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:16:39,884	INFO	Error: :1139166057:1471:/start
+2022-11-24 23:16:50,596	INFO	Input: :1139166057:1473:/start
+2022-11-24 23:16:50,596	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:16:52,561	INFO	Input: :1139166057:1474:/start
+2022-11-24 23:16:52,561	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:16:53,981	INFO	Input: :1139166057:1475:/start
+2022-11-24 23:16:53,982	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:16:59,177	INFO	Input: :1139166057:1472:ButtonMyCardsInMenuMain
+2022-11-24 23:16:59,177	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:16:59,177	INFO	OUTPUT: 1139166057:1472
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-11-24 23:16:59,177	INFO	Error: :1139166057:1472:ButtonMyCardsInMenuMain
+2022-11-24 23:17:01,927	INFO	Input: :1139166057:1476:ButtonStylesFilmsFromMenuMainHorrors
+2022-11-24 23:17:01,927	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuChooseFilm
+2022-11-24 23:17:02,119	INFO	OUTPUT: 1139166057:1476
+text=Категория ужасы: 
+Название=Астрал
+Длительность=120
+Актуальная ссылка=empty
+Дата выхода фильма=2000
+
+Название=Проклятие Аннабель
+Длительность=180
+Актуальная ссылка=empty
+Дата выхода фильма=2012
+
+Название=Зеркала
+Длительность=200
+Актуальная ссылка=empty
+Дата выхода фильма=2011
+
+
+ Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-24 23:17:02,119	INFO	Error: :1139166057:1476:ButtonStylesFilmsFromMenuMainHorrors
+2022-11-24 23:17:03,667	INFO	Input: :1139166057:1478:/start
+2022-11-24 23:17:03,667	INFO	ROUTE: 1139166057 WaitingInputStartFromMenu
+2022-11-24 23:17:03,667	INFO	OUTPUT: 1139166057:1478
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:17:03,667	INFO	Error: :1139166057:1478:/start
+2022-11-24 23:17:05,528	INFO	Input: :1139166057:1479:ButtonTopFilmsFromMenuMain
+2022-11-24 23:17:05,528	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:18:38,893	INFO	Input: :1139166057:1480:/start
+2022-11-24 23:18:38,894	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:18:38,896	INFO	OUTPUT: 1139166057:1480
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:18:38,896	INFO	Error: :1139166057:1480:/start
+2022-11-24 23:18:40,086	INFO	Input: :1139166057:1481:ButtonTopFilmsFromMenuMain
+2022-11-24 23:18:40,086	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:18:56,953	INFO	Input: :1139166057:1482:/start
+2022-11-24 23:18:56,964	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:18:56,964	INFO	OUTPUT: 1139166057:1482
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:18:56,964	INFO	Error: :1139166057:1482:/start
+2022-11-24 23:19:13,984	INFO	Input: :1139166057:1483:ButtonTopFilmsFromMenuMain
+2022-11-24 23:19:13,984	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:26:24,959	INFO	Input: :1139166057:1484:/start
+2022-11-24 23:26:24,960	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:26:24,961	INFO	OUTPUT: 1139166057:1484
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:26:24,961	INFO	Error: :1139166057:1484:/start
+2022-11-24 23:26:26,214	INFO	Input: :1139166057:1485:ButtonTopFilmsFromMenuMain
+2022-11-24 23:26:26,214	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-24 23:37:57,682	INFO	Input: :1139166057:1486:/start
+2022-11-24 23:37:57,682	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-24 23:37:57,682	INFO	OUTPUT: 1139166057:1486
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-24 23:37:57,682	INFO	Error: :1139166057:1486:/start
+2022-11-24 23:37:59,263	INFO	Input: :1139166057:1487:ButtonTopFilmsFromMenuMain
+2022-11-24 23:37:59,263	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-25 01:49:31,639	INFO	Input: :1139166057:1488:/start
+2022-11-25 01:49:31,640	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-25 01:49:31,641	INFO	OUTPUT: 1139166057:1488
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-25 01:49:31,641	INFO	Error: :1139166057:1488:/start
+2022-11-25 01:49:32,795	INFO	Input: :1139166057:1489:ButtonTopFilmsFromMenuMain
+2022-11-25 01:49:32,795	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-25 01:51:26,560	INFO	Input: :1139166057:1490:/start
+2022-11-25 01:51:26,561	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-25 01:51:26,563	INFO	OUTPUT: 1139166057:1490
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-25 01:51:26,563	INFO	Error: :1139166057:1490:/start
+2022-11-25 01:51:27,480	INFO	Input: :1139166057:1491:ButtonTopFilmsFromMenuMain
+2022-11-25 01:51:27,480	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:29:39,942	INFO	Input: :1139166057:1492:/start
+2022-11-26 20:29:39,947	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 20:29:39,948	INFO	OUTPUT: 1139166057:1492
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:29:39,948	INFO	Error: :1139166057:1492:/start
+2022-11-26 20:29:41,276	INFO	Input: :1139166057:1493:ButtonTopFilmsFromMenuMain
+2022-11-26 20:29:41,277	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:29:54,391	INFO	Input: :1139166057:1494:/start
+2022-11-26 20:29:54,392	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 20:29:54,392	INFO	OUTPUT: 1139166057:1494
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:29:54,392	INFO	Error: :1139166057:1494:/start
+2022-11-26 20:34:39,473	INFO	Input: :1139166057:1496:/start
+2022-11-26 20:34:39,474	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 20:34:39,479	INFO	OUTPUT: 1139166057:1496
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:34:39,479	INFO	Error: :1139166057:1496:/start
+2022-11-26 20:34:40,806	INFO	Input: :1139166057:1497:ButtonTopFilmsFromMenuMain
+2022-11-26 20:34:40,806	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain

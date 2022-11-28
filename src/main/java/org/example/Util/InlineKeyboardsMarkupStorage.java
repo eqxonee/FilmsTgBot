@@ -23,8 +23,8 @@ public class InlineKeyboardsMarkupStorage {
 
         row = new ArrayList<>();
         button = new InlineKeyboardButton();
-        button.setText(ButtonsStorage.ButtonTopFilmsFromMenuMain.getName());
-        button.setCallbackData(ButtonsStorage.ButtonTopFilmsFromMenuMain.getCallBackData());
+        button.setText(ButtonsStorage.ButtonTopFilmsInMenuMain.getName());
+        button.setCallbackData(ButtonsStorage.ButtonTopFilmsInMenuMain.getCallBackData());
         row.add(button);
         keyboard.add(row);
 

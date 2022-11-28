@@ -3,7 +3,6 @@ package org.example.Service.Handlers;
 
 import org.example.Model.DbManager;
 import org.example.Model.Entities.StyleFilm;
-import org.example.Statemachine.State;
 import org.example.Statemachine.TransmittedData;
 import org.example.Util.ButtonsStorage;
 import org.example.Util.DialogStringsStorage;
@@ -56,11 +55,16 @@ public class MainMenuService {
             transmittedData.setState(WaitingClickOnInlineButtonInMenuChooseFilm);
 
             return message;
-        } else if (callBackData.equals(ButtonsStorage.ButtonTopFilmsFromMenuMain.getCallBackData())) {
+        } else if (callBackData.equals(ButtonsStorage.ButtonTopFilmsInMenuMain.getCallBackData())) {
             //TODO ПАРСЕР
-            message.setText(DialogStringsStorage.CommandTopFilms);
 
-            transmittedData.setState(State.WaitingCommandStart);
+            //   message.setText(String.valueOf(topFilmsParser.processGetTopFilms( "",transmittedData)));
+
+            message.setText(topFilmsParser.processGetTopFilms());
+            transmittedData.setState(WaitingClickOnInlineButtonTopFilmsInMenuMain);
+            // message.setText(DialogStringsStorage.CommandStyleFilmsBack);
+
+            return message;
 
 
         } else if (callBackData.equals(ButtonsStorage.ButtonAddFilmsInMenuMain.getCallBackData())) {

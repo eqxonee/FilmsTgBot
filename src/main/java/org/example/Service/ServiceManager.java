@@ -32,9 +32,9 @@ public class ServiceManager {
 
         methods.put(State.WaitingCommandStart, mainMenuService::processCommandStart);
         methods.put(State.WaitingClickOnInlineButtonInMenuMain, mainMenuService::processClickOnInlineButtonInMenuMain);
-        methods.put(State.WaitingClickOnInlineButtonTopFilms,topFilmsParser::processGetTopFilms); // tyt
         methods.put(State.WaitingClickOnInlineButtonInMenuChooseFilm, mainMenuListFilms::processClickOnInlineButtonStylesFilms);
         methods.put(State.WaitingInputStartFromMenu, mainMenuService::processCommandStart);
+
 
         methods.put(State.NameFilm, mainMenuAddFilms::processNameFilm);
         methods.put(State.ReleaseFilm, mainMenuAddFilms::processReleaseFilm);

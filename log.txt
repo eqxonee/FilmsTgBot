@@ -297,3 +297,1296 @@ keyboard=Список фильмов;Топ фильмов;Добавить фи
 2022-11-26 20:34:39,479	INFO	Error: :1139166057:1496:/start
 2022-11-26 20:34:40,806	INFO	Input: :1139166057:1497:ButtonTopFilmsFromMenuMain
 2022-11-26 20:34:40,806	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:47:38,787	INFO	Input: :1139166057:1498:/start
+2022-11-26 20:47:38,789	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 20:47:38,790	INFO	OUTPUT: 1139166057:1498
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:47:38,790	INFO	Error: :1139166057:1498:/start
+2022-11-26 20:47:39,921	INFO	Input: :1139166057:1499:ButtonTopFilmsFromMenuMain
+2022-11-26 20:47:39,922	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:54:08,281	INFO	Input: :1139166057:1500:/start
+2022-11-26 20:54:08,282	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 20:54:08,283	INFO	OUTPUT: 1139166057:1500
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:54:08,283	INFO	Error: :1139166057:1500:/start
+2022-11-26 20:54:09,612	INFO	Input: :1139166057:1501:ButtonMyCardsInMenuMain
+2022-11-26 20:54:09,612	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:54:09,612	INFO	OUTPUT: 1139166057:1501
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-11-26 20:54:09,612	INFO	Error: :1139166057:1501:ButtonMyCardsInMenuMain
+2022-11-26 20:54:11,117	INFO	Input: :1139166057:1502:ButtonStylesFilmsFromMenuMainHistory
+2022-11-26 20:54:11,117	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuChooseFilm
+2022-11-26 20:54:11,347	INFO	OUTPUT: 1139166057:1502
+text=Категория исторические: 
+Название=Гладиатор
+Длительность=220
+Актуальная ссылка=empty
+Дата выхода фильма=2002
+
+
+ Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 20:54:11,347	INFO	Error: :1139166057:1502:ButtonStylesFilmsFromMenuMainHistory
+2022-11-26 20:54:12,824	INFO	Input: :1139166057:1504:/start
+2022-11-26 20:54:12,824	INFO	ROUTE: 1139166057 WaitingInputStartFromMenu
+2022-11-26 20:54:12,824	INFO	OUTPUT: 1139166057:1504
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:54:12,824	INFO	Error: :1139166057:1504:/start
+2022-11-26 20:54:13,992	INFO	Input: :1139166057:1505:ButtonTopFilmsFromMenuMain
+2022-11-26 20:54:13,992	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:56:34,387	INFO	Input: :1139166057:1506:/start
+2022-11-26 20:56:34,388	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 20:56:34,389	INFO	OUTPUT: 1139166057:1506
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:56:34,389	INFO	Error: :1139166057:1506:/start
+2022-11-26 20:56:35,287	INFO	Input: :1139166057:1507:ButtonTopFilmsFromMenuMain
+2022-11-26 20:56:35,287	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:56:35,287	INFO	OUTPUT: 1139166057:1507
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 20:56:35,287	INFO	Error: :1139166057:1507:ButtonTopFilmsFromMenuMain
+2022-11-26 20:58:03,054	INFO	Input: :1139166057:1509:/start
+2022-11-26 20:58:03,055	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 20:58:03,056	INFO	OUTPUT: 1139166057:1509
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 20:58:03,057	INFO	Error: :1139166057:1509:/start
+2022-11-26 20:58:04,045	INFO	Input: :1139166057:1510:ButtonTopFilmsFromMenuMain
+2022-11-26 20:58:04,045	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 20:58:04,045	INFO	OUTPUT: 1139166057:1510
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 20:58:04,045	INFO	Error: :1139166057:1510:ButtonTopFilmsFromMenuMain
+2022-11-26 21:00:00,827	INFO	Input: :1139166057:1512:/start
+2022-11-26 21:00:00,828	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:00:00,830	INFO	OUTPUT: 1139166057:1512
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:00:00,830	INFO	Error: :1139166057:1512:/start
+2022-11-26 21:00:01,740	INFO	Input: :1139166057:1513:ButtonTopFilmsFromMenuMain
+2022-11-26 21:00:01,740	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:00:02,334	INFO	OUTPUT: 1139166057:1513
+text=10Лакричная пицца (Licorice Pizza) , 2021
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:00:02,334	INFO	Error: :1139166057:1513:ButtonTopFilmsFromMenuMain
+2022-11-26 21:01:16,504	INFO	Input: :1139166057:1515:/start
+2022-11-26 21:01:16,505	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:01:16,506	INFO	OUTPUT: 1139166057:1515
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:01:16,506	INFO	Error: :1139166057:1515:/start
+2022-11-26 21:01:17,656	INFO	Input: :1139166057:1516:ButtonTopFilmsFromMenuMain
+2022-11-26 21:01:17,656	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:01:18,233	INFO	OUTPUT: 1139166057:1516
+text=9Сядь за руль моей машины (Doraibu mai ka) , 2021
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:01:18,233	INFO	Error: :1139166057:1516:ButtonTopFilmsFromMenuMain
+2022-11-26 21:02:22,618	INFO	Input: :1139166057:1518:/start
+2022-11-26 21:02:22,619	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:02:22,621	INFO	OUTPUT: 1139166057:1518
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:02:22,621	INFO	Error: :1139166057:1518:/start
+2022-11-26 21:02:23,658	INFO	Input: :1139166057:1519:ButtonTopFilmsFromMenuMain
+2022-11-26 21:02:23,658	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:02:24,200	INFO	OUTPUT: 1139166057:1519
+text=10Лакричная пицца (Licorice Pizza) , 2021
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:02:24,200	INFO	Error: :1139166057:1519:ButtonTopFilmsFromMenuMain
+2022-11-26 21:03:06,341	INFO	Input: :1139166057:1521:/start
+2022-11-26 21:03:06,342	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:03:06,343	INFO	OUTPUT: 1139166057:1521
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:03:06,344	INFO	Error: :1139166057:1521:/start
+2022-11-26 21:03:07,400	INFO	Input: :1139166057:1522:ButtonTopFilmsFromMenuMain
+2022-11-26 21:03:07,400	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:03:10,203	INFO	Input: :1139166057:1523:/start
+2022-11-26 21:03:10,204	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:03:10,204	INFO	OUTPUT: 1139166057:1523
+text=null
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:03:10,204	INFO	Error: :1139166057:1523:/start
+2022-11-26 21:04:36,553	INFO	Input: :1139166057:1524:/start
+2022-11-26 21:04:36,554	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:04:36,555	INFO	OUTPUT: 1139166057:1524
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:04:36,555	INFO	Error: :1139166057:1524:/start
+2022-11-26 21:04:37,650	INFO	Input: :1139166057:1525:ButtonTopFilmsFromMenuMain
+2022-11-26 21:04:37,650	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:06:36,655	INFO	Input: :1139166057:1526:/start
+2022-11-26 21:06:36,657	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:06:36,658	INFO	OUTPUT: 1139166057:1526
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:06:36,658	INFO	Error: :1139166057:1526:/start
+2022-11-26 21:06:37,657	INFO	Input: :1139166057:1527:ButtonTopFilmsFromMenuMain
+2022-11-26 21:06:37,657	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:06:38,198	INFO	OUTPUT: 1139166057:1527
+text=9Сядь за руль моей машины (Doraibu mai ka) , 2021
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:06:38,198	INFO	Error: :1139166057:1527:ButtonTopFilmsFromMenuMain
+2022-11-26 21:07:49,264	INFO	Input: :1139166057:1529:/start
+2022-11-26 21:07:49,265	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:07:49,266	INFO	OUTPUT: 1139166057:1529
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:07:49,266	INFO	Error: :1139166057:1529:/start
+2022-11-26 21:07:50,285	INFO	Input: :1139166057:1530:ButtonTopFilmsFromMenuMain
+2022-11-26 21:07:50,285	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:07:50,926	INFO	OUTPUT: 1139166057:1530
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:07:50,926	INFO	Error: :1139166057:1530:ButtonTopFilmsFromMenuMain
+2022-11-26 21:08:07,638	INFO	Input: :1139166057:1532:/start
+2022-11-26 21:08:07,638	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:08:07,639	INFO	OUTPUT: 1139166057:1532
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:08:07,639	INFO	Error: :1139166057:1532:/start
+2022-11-26 21:08:08,935	INFO	Input: :1139166057:1533:ButtonTopFilmsFromMenuMain
+2022-11-26 21:08:08,935	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:08:09,552	INFO	OUTPUT: 1139166057:1533
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:08:09,553	INFO	Error: :1139166057:1533:ButtonTopFilmsFromMenuMain
+2022-11-26 21:08:11,174	INFO	Input: :1139166057:1533:ButtonTopFilmsFromMenuMain
+2022-11-26 21:08:11,174	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:08:11,478	INFO	OUTPUT: 1139166057:1533
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:08:11,478	INFO	Error: :1139166057:1533:ButtonTopFilmsFromMenuMain
+2022-11-26 21:08:12,775	INFO	Input: :1139166057:1533:ButtonTopFilmsFromMenuMain
+2022-11-26 21:08:12,775	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:08:13,093	INFO	OUTPUT: 1139166057:1533
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:08:13,093	INFO	Error: :1139166057:1533:ButtonTopFilmsFromMenuMain
+2022-11-26 21:09:09,782	INFO	Input: :1139166057:1537:/start
+2022-11-26 21:09:09,783	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:09:09,785	INFO	OUTPUT: 1139166057:1537
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:09:09,785	INFO	Error: :1139166057:1537:/start
+2022-11-26 21:09:10,620	INFO	Input: :1139166057:1538:ButtonTopFilmsFromMenuMain
+2022-11-26 21:09:10,620	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:09:11,146	INFO	OUTPUT: 1139166057:1538
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:09:11,147	INFO	Error: :1139166057:1538:ButtonTopFilmsFromMenuMain
+2022-11-26 21:10:14,130	INFO	Input: :1139166057:1540:/start
+2022-11-26 21:10:14,131	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:10:14,132	INFO	OUTPUT: 1139166057:1540
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:10:14,132	INFO	Error: :1139166057:1540:/start
+2022-11-26 21:10:15,154	INFO	Input: :1139166057:1541:ButtonTopFilmsFromMenuMain
+2022-11-26 21:10:15,154	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:10:15,758	INFO	OUTPUT: 1139166057:1541
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:10:15,758	INFO	Error: :1139166057:1541:ButtonTopFilmsFromMenuMain
+2022-11-26 21:10:50,082	INFO	Input: :1139166057:1543:/start
+2022-11-26 21:10:50,083	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:10:50,084	INFO	OUTPUT: 1139166057:1543
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:10:50,085	INFO	Error: :1139166057:1543:/start
+2022-11-26 21:11:02,505	INFO	Input: :1139166057:1544:ButtonTopFilmsFromMenuMain
+2022-11-26 21:11:02,505	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:11:03,040	INFO	OUTPUT: 1139166057:1544
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:11:03,040	INFO	Error: :1139166057:1544:ButtonTopFilmsFromMenuMain
+2022-11-26 21:11:20,634	INFO	Input: :1139166057:1546:/start
+2022-11-26 21:11:20,635	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:11:20,636	INFO	OUTPUT: 1139166057:1546
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:11:20,636	INFO	Error: :1139166057:1546:/start
+2022-11-26 21:11:31,336	INFO	Input: :1139166057:1547:ButtonMyCardsInMenuMain
+2022-11-26 21:11:31,336	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:11:31,336	INFO	OUTPUT: 1139166057:1547
+text=null
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:11:31,336	INFO	Error: :1139166057:1547:ButtonMyCardsInMenuMain
+2022-11-26 21:11:56,052	INFO	Input: :1139166057:1548:/start
+2022-11-26 21:11:56,053	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:11:56,054	INFO	OUTPUT: 1139166057:1548
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:11:56,055	INFO	Error: :1139166057:1548:/start
+2022-11-26 21:11:57,380	INFO	Input: :1139166057:1549:ButtonTopFilmsFromMenuMain
+2022-11-26 21:11:57,380	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:11:57,380	INFO	OUTPUT: 1139166057:1549
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:11:57,380	INFO	Error: :1139166057:1549:ButtonTopFilmsFromMenuMain
+2022-11-26 21:13:09,173	INFO	Input: :1139166057:1551:/start
+2022-11-26 21:13:09,174	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:13:09,175	INFO	OUTPUT: 1139166057:1551
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:13:09,175	INFO	Error: :1139166057:1551:/start
+2022-11-26 21:13:10,068	INFO	Input: :1139166057:1552:ButtonTopFilmsFromMenuMain
+2022-11-26 21:13:10,068	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:13:10,068	INFO	OUTPUT: 1139166057:1552
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:13:10,068	INFO	Error: :1139166057:1552:ButtonTopFilmsFromMenuMain
+2022-11-26 21:13:23,081	INFO	Input: :1139166057:1552:ButtonTopFilmsFromMenuMain
+2022-11-26 21:13:23,082	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:13:23,082	INFO	OUTPUT: 1139166057:1552
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:13:23,082	INFO	Error: :1139166057:1552:ButtonTopFilmsFromMenuMain
+2022-11-26 21:13:25,024	INFO	Input: :1139166057:1555:/start
+2022-11-26 21:13:25,024	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 21:13:25,024	INFO	OUTPUT: 1139166057:1555
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 21:13:25,024	INFO	Error: :1139166057:1555:/start
+2022-11-26 21:13:25,992	INFO	Input: :1139166057:1556:ButtonTopFilmsFromMenuMain
+2022-11-26 21:13:25,993	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 21:13:25,993	INFO	OUTPUT: 1139166057:1556
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 21:13:25,993	INFO	Error: :1139166057:1556:ButtonTopFilmsFromMenuMain
+2022-11-26 23:45:19,850	INFO	Input: :1139166057:1558:/start
+2022-11-26 23:45:19,856	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:45:19,865	INFO	OUTPUT: 1139166057:1558
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:45:19,865	INFO	Error: :1139166057:1558:/start
+2022-11-26 23:45:20,807	INFO	Input: :1139166057:1559:ButtonTopFilmsFromMenuMain
+2022-11-26 23:45:20,807	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:45:20,807	INFO	OUTPUT: 1139166057:1559
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:45:20,807	INFO	Error: :1139166057:1559:ButtonTopFilmsFromMenuMain
+2022-11-26 23:45:58,599	INFO	Input: :1139166057:1561:/start
+2022-11-26 23:45:58,600	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:45:58,601	INFO	OUTPUT: 1139166057:1561
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:45:58,601	INFO	Error: :1139166057:1561:/start
+2022-11-26 23:45:59,525	INFO	Input: :1139166057:1562:ButtonTopFilmsFromMenuMain
+2022-11-26 23:45:59,525	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:46:00,202	INFO	OUTPUT: 1139166057:1562
+text=1Крестный отец (The Godfather) , 1972
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:46:00,203	INFO	Error: :1139166057:1562:ButtonTopFilmsFromMenuMain
+2022-11-26 23:46:53,826	INFO	Input: :1139166057:1564:/start
+2022-11-26 23:46:53,828	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:46:53,829	INFO	OUTPUT: 1139166057:1564
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:46:53,829	INFO	Error: :1139166057:1564:/start
+2022-11-26 23:46:54,906	INFO	Input: :1139166057:1565:ButtonTopFilmsFromMenuMain
+2022-11-26 23:46:54,906	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:46:54,906	INFO	OUTPUT: 1139166057:1565
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:46:54,906	INFO	Error: :1139166057:1565:ButtonTopFilmsFromMenuMain
+2022-11-26 23:47:46,628	INFO	Input: :1139166057:1567:/start
+2022-11-26 23:47:46,630	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:47:46,631	INFO	OUTPUT: 1139166057:1567
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:47:46,631	INFO	Error: :1139166057:1567:/start
+2022-11-26 23:47:47,668	INFO	Input: :1139166057:1568:ButtonTopFilmsFromMenuMain
+2022-11-26 23:47:47,668	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:47:47,668	INFO	OUTPUT: 1139166057:1568
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:47:47,668	INFO	Error: :1139166057:1568:ButtonTopFilmsFromMenuMain
+2022-11-26 23:49:18,707	INFO	Input: :1139166057:1570:/start
+2022-11-26 23:49:18,708	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:49:18,709	INFO	OUTPUT: 1139166057:1570
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:49:18,710	INFO	Error: :1139166057:1570:/start
+2022-11-26 23:49:19,500	INFO	Input: :1139166057:1571:ButtonTopFilmsFromMenuMain
+2022-11-26 23:49:19,500	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:49:19,500	INFO	OUTPUT: 1139166057:1571
+text= Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:49:19,500	INFO	Error: :1139166057:1571:ButtonTopFilmsFromMenuMain
+2022-11-26 23:49:32,373	INFO	Input: :1139166057:1573:/start
+2022-11-26 23:49:32,374	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:49:32,375	INFO	OUTPUT: 1139166057:1573
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:49:32,375	INFO	Error: :1139166057:1573:/start
+2022-11-26 23:49:33,360	INFO	Input: :1139166057:1574:ButtonTopFilmsFromMenuMain
+2022-11-26 23:49:33,360	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:49:33,360	INFO	OUTPUT: 1139166057:1574
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:49:33,360	INFO	Error: :1139166057:1574:ButtonTopFilmsFromMenuMain
+2022-11-26 23:51:19,754	INFO	Input: :1139166057:1576:/start
+2022-11-26 23:51:19,755	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:51:19,757	INFO	OUTPUT: 1139166057:1576
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:51:19,757	INFO	Error: :1139166057:1576:/start
+2022-11-26 23:51:20,627	INFO	Input: :1139166057:1577:ButtonTopFilmsFromMenuMain
+2022-11-26 23:51:20,627	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:51:20,627	INFO	OUTPUT: 1139166057:1577
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:51:20,627	INFO	Error: :1139166057:1577:ButtonTopFilmsFromMenuMain
+2022-11-26 23:51:50,740	INFO	Input: :1139166057:1579:/start
+2022-11-26 23:51:50,741	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:51:50,742	INFO	OUTPUT: 1139166057:1579
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:51:50,742	INFO	Error: :1139166057:1579:/start
+2022-11-26 23:51:51,686	INFO	Input: :1139166057:1580:ButtonTopFilmsFromMenuMain
+2022-11-26 23:51:51,686	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:51:51,686	INFO	OUTPUT: 1139166057:1580
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:51:51,686	INFO	Error: :1139166057:1580:ButtonTopFilmsFromMenuMain
+2022-11-26 23:54:08,095	INFO	Input: :1139166057:1582:/start
+2022-11-26 23:54:08,095	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:54:08,097	INFO	OUTPUT: 1139166057:1582
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:54:08,097	INFO	Error: :1139166057:1582:/start
+2022-11-26 23:54:09,147	INFO	Input: :1139166057:1583:ButtonTopFilmsFromMenuMain
+2022-11-26 23:54:09,147	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:54:09,147	INFO	OUTPUT: 1139166057:1583
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:54:09,147	INFO	Error: :1139166057:1583:ButtonTopFilmsFromMenuMain
+2022-11-26 23:54:55,268	INFO	Input: :1139166057:1585:/start
+2022-11-26 23:54:55,269	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:54:55,270	INFO	OUTPUT: 1139166057:1585
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:54:55,271	INFO	Error: :1139166057:1585:/start
+2022-11-26 23:54:56,162	INFO	Input: :1139166057:1586:ButtonTopFilmsFromMenuMain
+2022-11-26 23:54:56,162	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:54:56,162	INFO	OUTPUT: 1139166057:1586
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:54:56,162	INFO	Error: :1139166057:1586:ButtonTopFilmsFromMenuMain
+2022-11-26 23:56:40,883	INFO	Input: :1139166057:1588:/start
+2022-11-26 23:56:40,883	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:56:40,885	INFO	OUTPUT: 1139166057:1588
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:56:40,885	INFO	Error: :1139166057:1588:/start
+2022-11-26 23:56:42,031	INFO	Input: :1139166057:1589:ButtonTopFilmsFromMenuMain
+2022-11-26 23:56:42,031	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:56:42,031	INFO	OUTPUT: 1139166057:1589
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:56:42,031	INFO	Error: :1139166057:1589:ButtonTopFilmsFromMenuMain
+2022-11-26 23:56:57,111	INFO	Input: :1139166057:1591:/start
+2022-11-26 23:56:57,111	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:56:57,111	INFO	OUTPUT: 1139166057:1591
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:56:57,111	INFO	Error: :1139166057:1591:/start
+2022-11-26 23:56:58,354	INFO	Input: :1139166057:1592:ButtonMyCardsInMenuMain
+2022-11-26 23:56:58,354	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:56:58,354	INFO	OUTPUT: 1139166057:1592
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-11-26 23:56:58,355	INFO	Error: :1139166057:1592:ButtonMyCardsInMenuMain
+2022-11-26 23:57:00,332	INFO	Input: :1139166057:1593:ButtonStylesFilmsFromMenuMainHorrors
+2022-11-26 23:57:00,332	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuChooseFilm
+2022-11-26 23:57:00,553	INFO	OUTPUT: 1139166057:1593
+text=Категория ужасы: 
+Название=Астрал
+Длительность=120
+Актуальная ссылка=empty
+Дата выхода фильма=2000
+
+Название=Проклятие Аннабель
+Длительность=180
+Актуальная ссылка=empty
+Дата выхода фильма=2012
+
+Название=Зеркала
+Длительность=200
+Актуальная ссылка=empty
+Дата выхода фильма=2011
+
+
+ Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:57:00,553	INFO	Error: :1139166057:1593:ButtonStylesFilmsFromMenuMainHorrors
+2022-11-26 23:57:01,993	INFO	Input: :1139166057:1595:/start
+2022-11-26 23:57:01,993	INFO	ROUTE: 1139166057 WaitingInputStartFromMenu
+2022-11-26 23:57:01,994	INFO	OUTPUT: 1139166057:1595
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:57:01,994	INFO	Error: :1139166057:1595:/start
+2022-11-26 23:57:03,263	INFO	Input: :1139166057:1596:ButtonTopFilmsFromMenuMain
+2022-11-26 23:57:03,263	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:57:03,263	INFO	OUTPUT: 1139166057:1596
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:57:03,263	INFO	Error: :1139166057:1596:ButtonTopFilmsFromMenuMain
+2022-11-26 23:57:06,267	INFO	Input: :1139166057:1596:ButtonTopFilmsFromMenuMain
+2022-11-26 23:57:06,267	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:57:06,267	INFO	OUTPUT: 1139166057:1596
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:57:06,267	INFO	Error: :1139166057:1596:ButtonTopFilmsFromMenuMain
+2022-11-26 23:57:07,787	INFO	Input: :1139166057:1599:/start
+2022-11-26 23:57:07,788	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:57:07,788	INFO	OUTPUT: 1139166057:1599
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:57:07,788	INFO	Error: :1139166057:1599:/start
+2022-11-26 23:57:09,033	INFO	Input: :1139166057:1600:ButtonTopFilmsFromMenuMain
+2022-11-26 23:57:09,034	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:57:09,034	INFO	OUTPUT: 1139166057:1600
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:57:09,034	INFO	Error: :1139166057:1600:ButtonTopFilmsFromMenuMain
+2022-11-26 23:57:11,811	INFO	Input: :1139166057:1602:/start
+2022-11-26 23:57:11,812	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:57:11,812	INFO	OUTPUT: 1139166057:1602
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:57:11,812	INFO	Error: :1139166057:1602:/start
+2022-11-26 23:57:13,171	INFO	Input: :1139166057:1603:ButtonTopFilmsFromMenuMain
+2022-11-26 23:57:13,171	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:57:13,171	INFO	OUTPUT: 1139166057:1603
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:57:13,172	INFO	Error: :1139166057:1603:ButtonTopFilmsFromMenuMain
+2022-11-26 23:58:29,113	INFO	Input: :1139166057:1605:/start
+2022-11-26 23:58:29,114	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-26 23:58:29,116	INFO	OUTPUT: 1139166057:1605
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-26 23:58:29,116	INFO	Error: :1139166057:1605:/start
+2022-11-26 23:58:30,069	INFO	Input: :1139166057:1606:ButtonTopFilmsFromMenuMain
+2022-11-26 23:58:30,069	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-26 23:58:30,069	INFO	OUTPUT: 1139166057:1606
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-26 23:58:30,069	INFO	Error: :1139166057:1606:ButtonTopFilmsFromMenuMain
+2022-11-27 00:02:20,695	INFO	Input: :1139166057:1608:/start
+2022-11-27 00:02:20,696	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 00:02:20,697	INFO	OUTPUT: 1139166057:1608
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:02:20,698	INFO	Error: :1139166057:1608:/start
+2022-11-27 00:02:21,547	INFO	Input: :1139166057:1609:ButtonTopFilmsFromMenuMain
+2022-11-27 00:02:21,547	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:02:21,547	INFO	OUTPUT: 1139166057:1609
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 00:02:21,547	INFO	Error: :1139166057:1609:ButtonTopFilmsFromMenuMain
+2022-11-27 00:02:43,399	INFO	Input: :1139166057:1611:/start
+2022-11-27 00:02:43,400	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 00:02:43,402	INFO	OUTPUT: 1139166057:1611
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:02:43,402	INFO	Error: :1139166057:1611:/start
+2022-11-27 00:02:44,213	INFO	Input: :1139166057:1612:ButtonTopFilmsFromMenuMain
+2022-11-27 00:02:44,213	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:02:44,213	INFO	OUTPUT: 1139166057:1612
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 00:02:44,213	INFO	Error: :1139166057:1612:ButtonTopFilmsFromMenuMain
+2022-11-27 00:03:28,307	INFO	Input: :1139166057:1614:/start
+2022-11-27 00:03:28,308	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 00:03:28,309	INFO	OUTPUT: 1139166057:1614
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:03:28,309	INFO	Error: :1139166057:1614:/start
+2022-11-27 00:03:29,190	INFO	Input: :1139166057:1615:ButtonTopFilmsFromMenuMain
+2022-11-27 00:03:29,190	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:03:29,190	INFO	OUTPUT: 1139166057:1615
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 00:03:29,190	INFO	Error: :1139166057:1615:ButtonTopFilmsFromMenuMain
+2022-11-27 00:06:10,925	INFO	Input: :1139166057:1617:/start
+2022-11-27 00:06:10,926	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 00:06:10,927	INFO	OUTPUT: 1139166057:1617
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:06:10,927	INFO	Error: :1139166057:1617:/start
+2022-11-27 00:06:11,875	INFO	Input: :1139166057:1618:ButtonTopFilmsFromMenuMain
+2022-11-27 00:06:11,875	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:06:11,875	INFO	OUTPUT: 1139166057:1618
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 00:06:11,875	INFO	Error: :1139166057:1618:ButtonTopFilmsFromMenuMain
+2022-11-27 00:06:27,718	INFO	Input: :1139166057:1620:/start
+2022-11-27 00:06:27,719	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 00:06:27,720	INFO	OUTPUT: 1139166057:1620
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:06:27,720	INFO	Error: :1139166057:1620:/start
+2022-11-27 00:06:28,835	INFO	Input: :1139166057:1621:ButtonTopFilmsFromMenuMain
+2022-11-27 00:06:28,835	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:06:28,835	INFO	OUTPUT: 1139166057:1621
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 00:06:28,835	INFO	Error: :1139166057:1621:ButtonTopFilmsFromMenuMain
+2022-11-27 00:08:00,579	INFO	Input: :1139166057:1623:/start
+2022-11-27 00:08:00,579	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 00:08:00,580	INFO	OUTPUT: 1139166057:1623
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:08:00,580	INFO	Error: :1139166057:1623:/start
+2022-11-27 00:08:02,247	INFO	Input: :1139166057:1624:ButtonMyCardsInMenuMain
+2022-11-27 00:08:02,247	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:08:02,248	INFO	OUTPUT: 1139166057:1624
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-11-27 00:08:02,248	INFO	Error: :1139166057:1624:ButtonMyCardsInMenuMain
+2022-11-27 00:08:18,429	INFO	Input: :1139166057:1626:/start
+2022-11-27 00:08:18,430	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 00:08:18,432	INFO	OUTPUT: 1139166057:1626
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:08:18,432	INFO	Error: :1139166057:1626:/start
+2022-11-27 00:08:25,660	INFO	Input: :1139166057:1628:/start
+2022-11-27 00:08:25,660	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:08:31,904	INFO	Input: :1139166057:1627:ButtonMyCardsInMenuMain
+2022-11-27 00:08:31,904	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 00:08:31,904	INFO	OUTPUT: 1139166057:1627
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-11-27 00:08:31,904	INFO	Error: :1139166057:1627:ButtonMyCardsInMenuMain
+2022-11-27 00:08:37,414	INFO	Input: :1139166057:1629:ButtonStylesFilmsFromMenuMainHorrors
+2022-11-27 00:08:37,414	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuChooseFilm
+2022-11-27 00:08:37,675	INFO	OUTPUT: 1139166057:1629
+text=Категория ужасы: 
+Название=Астрал
+Длительность=120
+Актуальная ссылка=empty
+Дата выхода фильма=2000
+
+Название=Проклятие Аннабель
+Длительность=180
+Актуальная ссылка=empty
+Дата выхода фильма=2012
+
+Название=Зеркала
+Длительность=200
+Актуальная ссылка=empty
+Дата выхода фильма=2011
+
+
+ Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 00:08:37,675	INFO	Error: :1139166057:1629:ButtonStylesFilmsFromMenuMainHorrors
+2022-11-27 00:08:42,154	INFO	Input: :1139166057:1631:/start
+2022-11-27 00:08:42,154	INFO	ROUTE: 1139166057 WaitingInputStartFromMenu
+2022-11-27 00:08:42,155	INFO	OUTPUT: 1139166057:1631
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 00:08:42,155	INFO	Error: :1139166057:1631:/start
+2022-11-27 20:32:49,860	INFO	Input: :1139166057:1633:/start
+2022-11-27 20:32:49,864	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:32:49,873	INFO	OUTPUT: 1139166057:1633
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:32:49,873	INFO	Error: :1139166057:1633:/start
+2022-11-27 20:32:51,343	INFO	Input: :1139166057:1634:ButtonTopFilmsFromMenuMain
+2022-11-27 20:32:51,343	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:32:51,343	INFO	OUTPUT: 1139166057:1634
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:32:51,343	INFO	Error: :1139166057:1634:ButtonTopFilmsFromMenuMain
+2022-11-27 20:36:03,391	INFO	Input: :1139166057:1636:/start
+2022-11-27 20:36:03,393	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:36:03,394	INFO	OUTPUT: 1139166057:1636
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:36:03,394	INFO	Error: :1139166057:1636:/start
+2022-11-27 20:36:26,526	INFO	Input: :1139166057:1637:ButtonTopFilmsFromMenuMain
+2022-11-27 20:36:26,526	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:36:26,526	INFO	OUTPUT: 1139166057:1637
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:36:26,526	INFO	Error: :1139166057:1637:ButtonTopFilmsFromMenuMain
+2022-11-27 20:37:48,822	INFO	Input: :1139166057:1639:/start
+2022-11-27 20:37:48,823	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:37:48,824	INFO	OUTPUT: 1139166057:1639
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:37:48,824	INFO	Error: :1139166057:1639:/start
+2022-11-27 20:37:49,705	INFO	Input: :1139166057:1640:ButtonTopFilmsFromMenuMain
+2022-11-27 20:37:49,705	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:37:49,706	INFO	OUTPUT: 1139166057:1640
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:37:49,706	INFO	Error: :1139166057:1640:ButtonTopFilmsFromMenuMain
+2022-11-27 20:41:26,861	INFO	Input: :1139166057:1642:/start
+2022-11-27 20:41:26,862	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:41:26,863	INFO	OUTPUT: 1139166057:1642
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:41:26,863	INFO	Error: :1139166057:1642:/start
+2022-11-27 20:41:27,828	INFO	Input: :1139166057:1643:ButtonTopFilmsFromMenuMain
+2022-11-27 20:41:27,828	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:41:27,828	INFO	OUTPUT: 1139166057:1643
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:41:27,828	INFO	Error: :1139166057:1643:ButtonTopFilmsFromMenuMain
+2022-11-27 20:47:11,647	INFO	Input: :1139166057:1645:/start
+2022-11-27 20:47:11,648	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:47:11,649	INFO	OUTPUT: 1139166057:1645
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:47:11,649	INFO	Error: :1139166057:1645:/start
+2022-11-27 20:47:12,631	INFO	Input: :1139166057:1646:ButtonTopFilmsFromMenuMain
+2022-11-27 20:47:12,631	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:47:12,631	INFO	OUTPUT: 1139166057:1646
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:47:12,631	INFO	Error: :1139166057:1646:ButtonTopFilmsFromMenuMain
+2022-11-27 20:48:43,650	INFO	Input: :1139166057:1648:/start
+2022-11-27 20:48:43,651	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:48:43,652	INFO	OUTPUT: 1139166057:1648
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:48:43,652	INFO	Error: :1139166057:1648:/start
+2022-11-27 20:48:44,565	INFO	Input: :1139166057:1649:ButtonTopFilmsFromMenuMain
+2022-11-27 20:48:44,565	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:48:44,565	INFO	OUTPUT: 1139166057:1649
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:48:44,565	INFO	Error: :1139166057:1649:ButtonTopFilmsFromMenuMain
+2022-11-27 20:49:34,148	INFO	Input: :1139166057:1651:/start
+2022-11-27 20:49:34,149	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:49:34,151	INFO	OUTPUT: 1139166057:1651
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:49:34,151	INFO	Error: :1139166057:1651:/start
+2022-11-27 20:49:35,656	INFO	Input: :1139166057:1652:ButtonTopFilmsFromMenuMain
+2022-11-27 20:49:35,656	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:49:35,656	INFO	OUTPUT: 1139166057:1652
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:49:35,656	INFO	Error: :1139166057:1652:ButtonTopFilmsFromMenuMain
+2022-11-27 20:52:41,015	INFO	Input: :1139166057:1654:/start
+2022-11-27 20:52:41,016	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:52:41,017	INFO	OUTPUT: 1139166057:1654
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:52:41,017	INFO	Error: :1139166057:1654:/start
+2022-11-27 20:52:45,757	INFO	Input: :1139166057:1655:ButtonTopFilmsFromMenuMain
+2022-11-27 20:52:45,757	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:54:43,082	INFO	OUTPUT: 1139166057:1655
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:54:43,083	INFO	Error: :1139166057:1655:ButtonTopFilmsFromMenuMain
+2022-11-27 20:54:48,472	INFO	Input: :1139166057:1656:/start
+2022-11-27 20:54:48,473	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:54:48,478	INFO	OUTPUT: 1139166057:1656
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:54:48,478	INFO	Error: :1139166057:1656:/start
+2022-11-27 20:54:49,456	INFO	Input: :1139166057:1657:ButtonTopFilmsInMenuMain
+2022-11-27 20:54:49,456	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:54:49,456	INFO	OUTPUT: 1139166057:1657
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:54:49,456	INFO	Error: :1139166057:1657:ButtonTopFilmsInMenuMain
+2022-11-27 20:56:13,153	INFO	Input: :1139166057:1659:/start
+2022-11-27 20:56:13,154	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:56:13,155	INFO	OUTPUT: 1139166057:1659
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:56:13,155	INFO	Error: :1139166057:1659:/start
+2022-11-27 20:56:14,334	INFO	Input: :1139166057:1660:ButtonTopFilmsInMenuMain
+2022-11-27 20:56:14,334	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:56:14,334	INFO	OUTPUT: 1139166057:1660
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:56:14,334	INFO	Error: :1139166057:1660:ButtonTopFilmsInMenuMain
+2022-11-27 20:56:29,395	INFO	Input: :1139166057:1662:/start
+2022-11-27 20:56:29,396	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:56:29,398	INFO	OUTPUT: 1139166057:1662
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:56:29,398	INFO	Error: :1139166057:1662:/start
+2022-11-27 20:56:30,360	INFO	Input: :1139166057:1663:ButtonTopFilmsInMenuMain
+2022-11-27 20:56:30,360	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:56:30,360	INFO	OUTPUT: 1139166057:1663
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:56:30,360	INFO	Error: :1139166057:1663:ButtonTopFilmsInMenuMain
+2022-11-27 20:56:47,198	INFO	Input: :1139166057:1665:/start
+2022-11-27 20:56:47,199	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:56:47,201	INFO	OUTPUT: 1139166057:1665
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:56:47,201	INFO	Error: :1139166057:1665:/start
+2022-11-27 20:56:48,577	INFO	Input: :1139166057:1666:ButtonTopFilmsInMenuMain
+2022-11-27 20:56:48,578	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:57:19,126	INFO	OUTPUT: 1139166057:1666
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:57:19,526	INFO	Error: :1139166057:1666:ButtonTopFilmsInMenuMain
+2022-11-27 20:57:33,686	INFO	Input: :1139166057:1668:/start
+2022-11-27 20:57:33,687	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:57:33,688	INFO	OUTPUT: 1139166057:1668
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:57:33,689	INFO	Error: :1139166057:1668:/start
+2022-11-27 20:57:36,263	INFO	Input: :1139166057:1669:ButtonTopFilmsInMenuMain
+2022-11-27 20:57:36,263	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:57:36,264	INFO	OUTPUT: 1139166057:1669
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:57:36,264	INFO	Error: :1139166057:1669:ButtonTopFilmsInMenuMain
+2022-11-27 20:58:32,403	INFO	Input: :1139166057:1671:/start
+2022-11-27 20:58:32,404	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:58:32,406	INFO	OUTPUT: 1139166057:1671
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:58:32,406	INFO	Error: :1139166057:1671:/start
+2022-11-27 20:58:34,320	INFO	Input: :1139166057:1672:ButtonTopFilmsInMenuMain
+2022-11-27 20:58:34,320	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:58:34,321	INFO	OUTPUT: 1139166057:1672
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:58:34,321	INFO	Error: :1139166057:1672:ButtonTopFilmsInMenuMain
+2022-11-27 20:58:54,807	INFO	Input: :1139166057:1674:/start
+2022-11-27 20:58:54,808	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 20:58:54,809	INFO	OUTPUT: 1139166057:1674
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 20:58:54,809	INFO	Error: :1139166057:1674:/start
+2022-11-27 20:58:55,715	INFO	Input: :1139166057:1675:ButtonTopFilmsInMenuMain
+2022-11-27 20:58:55,715	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 20:58:55,715	INFO	OUTPUT: 1139166057:1675
+text=ТОП 10 фильмов по мнению сайта - kinonews
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 20:58:55,716	INFO	Error: :1139166057:1675:ButtonTopFilmsInMenuMain
+2022-11-27 21:02:14,217	INFO	Input: :1139166057:1677:/start
+2022-11-27 21:02:14,218	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:02:14,220	INFO	OUTPUT: 1139166057:1677
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:02:14,220	INFO	Error: :1139166057:1677:/start
+2022-11-27 21:02:15,104	INFO	Input: :1139166057:1678:ButtonTopFilmsInMenuMain
+2022-11-27 21:02:15,105	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:02:15,758	INFO	OUTPUT: 1139166057:1678
+text=SendMessage(chatId=1139166057, text=1.Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:02:15,759	INFO	Error: :1139166057:1678:ButtonTopFilmsInMenuMain
+2022-11-27 21:02:54,302	INFO	Input: :1139166057:1680:/start
+2022-11-27 21:02:54,303	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:02:54,304	INFO	OUTPUT: 1139166057:1680
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:02:54,304	INFO	Error: :1139166057:1680:/start
+2022-11-27 21:02:55,235	INFO	Input: :1139166057:1681:ButtonTopFilmsInMenuMain
+2022-11-27 21:02:55,235	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:02:55,864	INFO	OUTPUT: 1139166057:1681
+text=SendMessage(chatId=1139166057, text=1.Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:02:55,865	INFO	Error: :1139166057:1681:ButtonTopFilmsInMenuMain
+2022-11-27 21:03:48,010	INFO	Input: :1139166057:1683:/start
+2022-11-27 21:03:48,011	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:03:48,012	INFO	OUTPUT: 1139166057:1683
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:03:48,012	INFO	Error: :1139166057:1683:/start
+2022-11-27 21:03:49,143	INFO	Input: :1139166057:1684:ButtonTopFilmsInMenuMain
+2022-11-27 21:03:49,144	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:03:53,550	INFO	Input: :1139166057:1685:/start
+2022-11-27 21:03:53,550	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:05:47,744	INFO	Input: :1139166057:1686:/start
+2022-11-27 21:05:47,744	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:05:47,746	INFO	OUTPUT: 1139166057:1686
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:05:47,746	INFO	Error: :1139166057:1686:/start
+2022-11-27 21:05:48,693	INFO	Input: :1139166057:1687:ButtonTopFilmsInMenuMain
+2022-11-27 21:05:48,693	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:06:27,424	INFO	Input: :1139166057:1688:/start
+2022-11-27 21:06:27,425	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:06:27,426	INFO	OUTPUT: 1139166057:1688
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:06:27,426	INFO	Error: :1139166057:1688:/start
+2022-11-27 21:06:28,885	INFO	Input: :1139166057:1689:ButtonTopFilmsInMenuMain
+2022-11-27 21:06:28,886	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:06:53,899	INFO	Input: :1139166057:1690:/start
+2022-11-27 21:06:53,900	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:06:53,901	INFO	OUTPUT: 1139166057:1690
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:06:53,901	INFO	Error: :1139166057:1690:/start
+2022-11-27 21:06:54,900	INFO	Input: :1139166057:1691:ButtonTopFilmsInMenuMain
+2022-11-27 21:06:54,900	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:08:16,779	INFO	Input: :1139166057:1692:/start
+2022-11-27 21:08:16,779	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:08:24,533	INFO	Input: :1139166057:1693:/start
+2022-11-27 21:08:24,535	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:08:24,536	INFO	OUTPUT: 1139166057:1693
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:08:24,536	INFO	Error: :1139166057:1693:/start
+2022-11-27 21:08:26,359	INFO	Input: :1139166057:1694:ButtonMyCardsInMenuMain
+2022-11-27 21:08:26,359	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:08:26,359	INFO	OUTPUT: 1139166057:1694
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-11-27 21:08:26,359	INFO	Error: :1139166057:1694:ButtonMyCardsInMenuMain
+2022-11-27 21:08:27,363	INFO	Input: :1139166057:1695:ButtonStylesFilmsFromMenuMainMilitary
+2022-11-27 21:08:27,363	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuChooseFilm
+2022-11-27 21:08:27,588	INFO	OUTPUT: 1139166057:1695
+text=Категория боевики: 
+Название=Неудержимые
+Длительность=240
+Актуальная ссылка=empty
+Дата выхода фильма=2010
+
+Название=Серега программист
+Длительность=600
+Актуальная ссылка=https://vk.com/pont68
+Дата выхода фильма=2022
+
+
+ Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:08:27,588	INFO	Error: :1139166057:1695:ButtonStylesFilmsFromMenuMainMilitary
+2022-11-27 21:08:29,823	INFO	Input: :1139166057:1697:/start
+2022-11-27 21:08:29,823	INFO	ROUTE: 1139166057 WaitingInputStartFromMenu
+2022-11-27 21:08:29,823	INFO	OUTPUT: 1139166057:1697
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:08:29,823	INFO	Error: :1139166057:1697:/start
+2022-11-27 21:08:31,478	INFO	Input: :1139166057:1698:ButtonTopFilmsInMenuMain
+2022-11-27 21:08:31,478	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:09:29,763	INFO	Input: :1139166057:1699:/start
+2022-11-27 21:09:29,764	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:09:29,765	INFO	OUTPUT: 1139166057:1699
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:09:29,765	INFO	Error: :1139166057:1699:/start
+2022-11-27 21:09:30,666	INFO	Input: :1139166057:1700:ButtonTopFilmsInMenuMain
+2022-11-27 21:09:30,666	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:10:09,381	INFO	Input: :1139166057:1701:/start
+2022-11-27 21:10:09,382	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:10:09,384	INFO	OUTPUT: 1139166057:1701
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:10:09,384	INFO	Error: :1139166057:1701:/start
+2022-11-27 21:10:10,399	INFO	Input: :1139166057:1702:ButtonTopFilmsInMenuMain
+2022-11-27 21:10:10,399	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:11:21,613	INFO	Input: :1139166057:1703:/start
+2022-11-27 21:11:21,614	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:11:21,616	INFO	OUTPUT: 1139166057:1703
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:11:21,616	INFO	Error: :1139166057:1703:/start
+2022-11-27 21:11:22,649	INFO	Input: :1139166057:1704:ButtonTopFilmsInMenuMain
+2022-11-27 21:11:22,649	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:13:14,991	INFO	Input: :1139166057:1705:/start
+2022-11-27 21:13:14,992	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:13:14,994	INFO	OUTPUT: 1139166057:1705
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:13:14,994	INFO	Error: :1139166057:1705:/start
+2022-11-27 21:13:16,165	INFO	Input: :1139166057:1706:ButtonTopFilmsInMenuMain
+2022-11-27 21:13:16,165	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:13:37,043	INFO	Input: :1139166057:1707:/start
+2022-11-27 21:13:37,044	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:13:37,045	INFO	OUTPUT: 1139166057:1707
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:13:37,046	INFO	Error: :1139166057:1707:/start
+2022-11-27 21:13:38,308	INFO	Input: :1139166057:1708:ButtonTopFilmsInMenuMain
+2022-11-27 21:13:38,308	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:15:43,442	INFO	Input: :1139166057:1709:/start
+2022-11-27 21:15:43,443	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:15:43,444	INFO	OUTPUT: 1139166057:1709
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:15:43,444	INFO	Error: :1139166057:1709:/start
+2022-11-27 21:15:44,372	INFO	Input: :1139166057:1710:ButtonTopFilmsInMenuMain
+2022-11-27 21:15:44,372	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:16:20,701	INFO	Input: :1139166057:1711:/start
+2022-11-27 21:16:20,702	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:16:20,704	INFO	OUTPUT: 1139166057:1711
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:16:20,704	INFO	Error: :1139166057:1711:/start
+2022-11-27 21:16:21,625	INFO	Input: :1139166057:1712:ButtonTopFilmsInMenuMain
+2022-11-27 21:16:21,625	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:17:49,708	INFO	Input: :1139166057:1713:/start
+2022-11-27 21:17:49,709	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:17:49,711	INFO	OUTPUT: 1139166057:1713
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:17:49,711	INFO	Error: :1139166057:1713:/start
+2022-11-27 21:17:50,710	INFO	Input: :1139166057:1714:ButtonTopFilmsInMenuMain
+2022-11-27 21:17:50,710	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:17:51,234	INFO	OUTPUT: 1139166057:1714
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:17:51,234	INFO	Error: :1139166057:1714:ButtonTopFilmsInMenuMain
+2022-11-27 21:18:14,268	INFO	Input: :1139166057:1716:/start
+2022-11-27 21:18:14,269	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:18:14,270	INFO	OUTPUT: 1139166057:1716
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:18:14,270	INFO	Error: :1139166057:1716:/start
+2022-11-27 21:18:15,383	INFO	Input: :1139166057:1717:ButtonTopFilmsInMenuMain
+2022-11-27 21:18:15,383	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:18:57,906	INFO	OUTPUT: 1139166057:1717
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:18:57,906	INFO	Error: :1139166057:1717:ButtonTopFilmsInMenuMain
+2022-11-27 21:21:30,489	INFO	Input: :1139166057:1719:/start
+2022-11-27 21:21:30,490	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:21:30,491	INFO	OUTPUT: 1139166057:1719
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:21:30,491	INFO	Error: :1139166057:1719:/start
+2022-11-27 21:21:31,370	INFO	Input: :1139166057:1720:ButtonTopFilmsInMenuMain
+2022-11-27 21:21:31,370	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:23:11,379	INFO	OUTPUT: 1139166057:1720
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:23:11,789	INFO	Error: :1139166057:1720:ButtonTopFilmsInMenuMain
+2022-11-27 21:24:22,457	INFO	Input: :1139166057:1722:/start
+2022-11-27 21:24:22,458	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:24:22,459	INFO	OUTPUT: 1139166057:1722
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:24:22,459	INFO	Error: :1139166057:1722:/start
+2022-11-27 21:24:23,391	INFO	Input: :1139166057:1723:ButtonTopFilmsInMenuMain
+2022-11-27 21:24:23,391	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:24:23,982	INFO	OUTPUT: 1139166057:1723
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:24:23,982	INFO	Error: :1139166057:1723:ButtonTopFilmsInMenuMain
+2022-11-27 21:24:45,350	INFO	Input: :1139166057:1725:/start
+2022-11-27 21:24:45,351	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:24:45,353	INFO	OUTPUT: 1139166057:1725
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:24:45,353	INFO	Error: :1139166057:1725:/start
+2022-11-27 21:24:46,368	INFO	Input: :1139166057:1726:ButtonTopFilmsInMenuMain
+2022-11-27 21:24:46,368	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:25:59,939	INFO	Input: :1139166057:1727:/start
+2022-11-27 21:25:59,939	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:25:59,941	INFO	OUTPUT: 1139166057:1727
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:25:59,941	INFO	Error: :1139166057:1727:/start
+2022-11-27 21:26:01,069	INFO	Input: :1139166057:1728:ButtonTopFilmsInMenuMain
+2022-11-27 21:26:01,069	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:26:43,200	INFO	Input: :1139166057:1729:/start
+2022-11-27 21:26:43,201	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:26:43,202	INFO	OUTPUT: 1139166057:1729
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:26:43,202	INFO	Error: :1139166057:1729:/start
+2022-11-27 21:26:44,108	INFO	Input: :1139166057:1730:ButtonTopFilmsInMenuMain
+2022-11-27 21:26:44,108	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:27:26,670	INFO	Input: :1139166057:1731:/start
+2022-11-27 21:27:26,671	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:27:26,672	INFO	OUTPUT: 1139166057:1731
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:27:26,672	INFO	Error: :1139166057:1731:/start
+2022-11-27 21:27:27,758	INFO	Input: :1139166057:1732:ButtonTopFilmsInMenuMain
+2022-11-27 21:27:27,759	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:27:52,373	INFO	Input: :1139166057:1733:/start
+2022-11-27 21:27:52,374	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:27:52,376	INFO	OUTPUT: 1139166057:1733
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:27:52,376	INFO	Error: :1139166057:1733:/start
+2022-11-27 21:27:53,313	INFO	Input: :1139166057:1734:ButtonTopFilmsInMenuMain
+2022-11-27 21:27:53,313	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:27:53,804	INFO	OUTPUT: 1139166057:1734
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:27:53,804	INFO	Error: :1139166057:1734:ButtonTopFilmsInMenuMain
+2022-11-27 21:30:06,996	INFO	Input: :1139166057:1736:/start
+2022-11-27 21:30:06,997	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:30:06,998	INFO	OUTPUT: 1139166057:1736
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:30:06,999	INFO	Error: :1139166057:1736:/start
+2022-11-27 21:30:07,755	INFO	Input: :1139166057:1737:ButtonTopFilmsInMenuMain
+2022-11-27 21:30:07,755	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:30:08,298	INFO	OUTPUT: 1139166057:1737
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:30:08,298	INFO	Error: :1139166057:1737:ButtonTopFilmsInMenuMain
+2022-11-27 21:30:31,583	INFO	Input: :1139166057:1739:/start
+2022-11-27 21:30:31,584	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:30:31,586	INFO	OUTPUT: 1139166057:1739
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:30:31,586	INFO	Error: :1139166057:1739:/start
+2022-11-27 21:30:32,666	INFO	Input: :1139166057:1740:ButtonTopFilmsInMenuMain
+2022-11-27 21:30:32,667	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:30:33,167	INFO	OUTPUT: 1139166057:1740
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:30:33,167	INFO	Error: :1139166057:1740:ButtonTopFilmsInMenuMain
+2022-11-27 21:30:55,392	INFO	Input: :1139166057:1742:/start
+2022-11-27 21:30:55,393	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:30:55,394	INFO	OUTPUT: 1139166057:1742
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:30:55,395	INFO	Error: :1139166057:1742:/start
+2022-11-27 21:30:56,370	INFO	Input: :1139166057:1743:ButtonTopFilmsInMenuMain
+2022-11-27 21:30:56,370	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:31:20,204	INFO	Input: :1139166057:1744:/start
+2022-11-27 21:31:20,204	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:31:20,206	INFO	OUTPUT: 1139166057:1744
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:31:20,206	INFO	Error: :1139166057:1744:/start
+2022-11-27 21:31:21,252	INFO	Input: :1139166057:1745:ButtonTopFilmsInMenuMain
+2022-11-27 21:31:21,252	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:31:21,713	INFO	OUTPUT: 1139166057:1745
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:31:21,713	INFO	Error: :1139166057:1745:ButtonTopFilmsInMenuMain
+2022-11-27 21:32:36,850	INFO	Input: :1139166057:1747:/start
+2022-11-27 21:32:36,851	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:32:36,852	INFO	OUTPUT: 1139166057:1747
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:32:36,852	INFO	Error: :1139166057:1747:/start
+2022-11-27 21:32:38,009	INFO	Input: :1139166057:1748:ButtonTopFilmsInMenuMain
+2022-11-27 21:32:38,009	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:32:38,614	INFO	OUTPUT: 1139166057:1748
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:32:38,614	INFO	Error: :1139166057:1748:ButtonTopFilmsInMenuMain
+2022-11-27 21:34:43,665	INFO	Input: :1139166057:1750:/start
+2022-11-27 21:34:43,666	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 21:34:43,668	INFO	OUTPUT: 1139166057:1750
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 21:34:43,668	INFO	Error: :1139166057:1750:/start
+2022-11-27 21:34:44,754	INFO	Input: :1139166057:1751:ButtonTopFilmsInMenuMain
+2022-11-27 21:34:44,754	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 21:34:44,754	INFO	OUTPUT: 1139166057:1751
+text=SendMessage(chatId=1139166057, text=null, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 21:34:44,755	INFO	Error: :1139166057:1751:ButtonTopFilmsInMenuMain
+2022-11-27 23:28:34,098	INFO	Input: :1139166057:1753:/start
+2022-11-27 23:28:34,102	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:28:34,112	INFO	OUTPUT: 1139166057:1753
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:28:34,112	INFO	Error: :1139166057:1753:/start
+2022-11-27 23:28:35,229	INFO	Input: :1139166057:1754:ButtonTopFilmsInMenuMain
+2022-11-27 23:28:35,229	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:28:35,768	INFO	OUTPUT: 1139166057:1754
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:28:35,768	INFO	Error: :1139166057:1754:ButtonTopFilmsInMenuMain
+2022-11-27 23:28:50,762	INFO	Input: :1139166057:1756:/start
+2022-11-27 23:28:50,762	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:28:50,764	INFO	OUTPUT: 1139166057:1756
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:28:50,764	INFO	Error: :1139166057:1756:/start
+2022-11-27 23:28:51,851	INFO	Input: :1139166057:1757:ButtonTopFilmsInMenuMain
+2022-11-27 23:28:51,851	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:28:52,347	INFO	OUTPUT: 1139166057:1757
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:28:52,347	INFO	Error: :1139166057:1757:ButtonTopFilmsInMenuMain
+2022-11-27 23:29:04,046	INFO	Input: :1139166057:1759:/start
+2022-11-27 23:29:04,047	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:29:04,048	INFO	OUTPUT: 1139166057:1759
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:29:04,048	INFO	Error: :1139166057:1759:/start
+2022-11-27 23:29:05,175	INFO	Input: :1139166057:1760:ButtonTopFilmsInMenuMain
+2022-11-27 23:29:05,175	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:29:43,557	INFO	Input: :1139166057:1761:/start
+2022-11-27 23:29:43,558	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:29:43,559	INFO	OUTPUT: 1139166057:1761
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:29:43,559	INFO	Error: :1139166057:1761:/start
+2022-11-27 23:29:44,508	INFO	Input: :1139166057:1762:ButtonTopFilmsInMenuMain
+2022-11-27 23:29:44,508	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:29:45,100	INFO	OUTPUT: 1139166057:1762
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:29:45,100	INFO	Error: :1139166057:1762:ButtonTopFilmsInMenuMain
+2022-11-27 23:30:51,605	INFO	Input: :1139166057:1764:/start
+2022-11-27 23:30:51,606	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:30:51,608	INFO	OUTPUT: 1139166057:1764
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:30:51,608	INFO	Error: :1139166057:1764:/start
+2022-11-27 23:30:52,604	INFO	Input: :1139166057:1765:ButtonTopFilmsInMenuMain
+2022-11-27 23:30:52,604	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:30:53,134	INFO	OUTPUT: 1139166057:1765
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:30:53,134	INFO	Error: :1139166057:1765:ButtonTopFilmsInMenuMain
+2022-11-27 23:33:57,579	INFO	Input: :1139166057:1767:/start
+2022-11-27 23:33:57,580	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:33:57,581	INFO	OUTPUT: 1139166057:1767
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:33:57,581	INFO	Error: :1139166057:1767:/start
+2022-11-27 23:33:58,557	INFO	Input: :1139166057:1768:ButtonTopFilmsInMenuMain
+2022-11-27 23:33:58,557	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:33:59,097	INFO	OUTPUT: 1139166057:1768
+text=SendMessage(chatId=1139166057, text=1 Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:33:59,097	INFO	Error: :1139166057:1768:ButtonTopFilmsInMenuMain
+2022-11-27 23:34:26,933	INFO	Input: :1139166057:1770:/start
+2022-11-27 23:34:26,933	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:34:26,935	INFO	OUTPUT: 1139166057:1770
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:34:26,935	INFO	Error: :1139166057:1770:/start
+2022-11-27 23:34:27,888	INFO	Input: :1139166057:1771:ButtonTopFilmsInMenuMain
+2022-11-27 23:34:27,888	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:34:28,391	INFO	OUTPUT: 1139166057:1771
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:34:28,392	INFO	Error: :1139166057:1771:ButtonTopFilmsInMenuMain
+2022-11-27 23:35:05,637	INFO	Input: :1139166057:1773:/start
+2022-11-27 23:35:05,638	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:35:05,639	INFO	OUTPUT: 1139166057:1773
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:35:05,640	INFO	Error: :1139166057:1773:/start
+2022-11-27 23:35:06,819	INFO	Input: :1139166057:1774:ButtonTopFilmsInMenuMain
+2022-11-27 23:35:06,819	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:35:07,322	INFO	OUTPUT: 1139166057:1774
+text=SendMessage(chatId=1139166057, text=1Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:35:07,322	INFO	Error: :1139166057:1774:ButtonTopFilmsInMenuMain
+2022-11-27 23:35:36,069	INFO	Input: :1139166057:1776:/start
+2022-11-27 23:35:36,070	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:35:36,072	INFO	OUTPUT: 1139166057:1776
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:35:36,072	INFO	Error: :1139166057:1776:/start
+2022-11-27 23:35:37,096	INFO	Input: :1139166057:1777:ButtonTopFilmsInMenuMain
+2022-11-27 23:35:37,096	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:35:37,662	INFO	OUTPUT: 1139166057:1777
+text=SendMessage(chatId=1139166057, text=1 Крестный отец(The Godfather), 1972, parseMode=null, disableWebPagePreview=null, disableNotification=null, replyToMessageId=null, replyMarkup=null, entities=null, allowSendingWithoutReply=null, protectContent=null)
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:35:37,662	INFO	Error: :1139166057:1777:ButtonTopFilmsInMenuMain
+2022-11-27 23:50:57,646	INFO	Input: :1139166057:1779:/start
+2022-11-27 23:50:57,647	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:50:57,648	INFO	OUTPUT: 1139166057:1779
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:50:57,649	INFO	Error: :1139166057:1779:/start
+2022-11-27 23:50:58,561	INFO	Input: :1139166057:1780:ButtonTopFilmsInMenuMain
+2022-11-27 23:50:58,561	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:57:13,653	INFO	Input: :1139166057:1781:/start
+2022-11-27 23:57:13,654	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:57:13,656	INFO	OUTPUT: 1139166057:1781
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:57:13,656	INFO	Error: :1139166057:1781:/start
+2022-11-27 23:57:14,614	INFO	Input: :1139166057:1782:ButtonTopFilmsInMenuMain
+2022-11-27 23:57:14,614	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:57:14,614	INFO	OUTPUT: 1139166057:1782
+text= Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:57:14,614	INFO	Error: :1139166057:1782:ButtonTopFilmsInMenuMain
+2022-11-27 23:57:33,410	INFO	Input: :1139166057:1784:/start
+2022-11-27 23:57:33,411	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:57:33,412	INFO	OUTPUT: 1139166057:1784
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:57:33,412	INFO	Error: :1139166057:1784:/start
+2022-11-27 23:57:34,536	INFO	Input: :1139166057:1785:ButtonTopFilmsInMenuMain
+2022-11-27 23:57:34,536	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:57:34,536	INFO	OUTPUT: 1139166057:1785
+text= Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:57:34,536	INFO	Error: :1139166057:1785:ButtonTopFilmsInMenuMain
+2022-11-27 23:57:36,097	INFO	Input: :1139166057:1787:/start
+2022-11-27 23:57:36,097	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonTopFilmsInMenuMain
+2022-11-27 23:58:03,002	INFO	Input: :1139166057:1788:/start
+2022-11-27 23:58:03,003	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-27 23:58:03,004	INFO	OUTPUT: 1139166057:1788
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-27 23:58:03,005	INFO	Error: :1139166057:1788:/start
+2022-11-27 23:58:03,905	INFO	Input: :1139166057:1789:ButtonTopFilmsInMenuMain
+2022-11-27 23:58:03,906	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-27 23:58:03,906	INFO	OUTPUT: 1139166057:1789
+text=null
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-27 23:58:03,906	INFO	Error: :1139166057:1789:ButtonTopFilmsInMenuMain
+2022-11-27 23:58:06,001	INFO	Input: :1139166057:1790:/start
+2022-11-27 23:58:06,001	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonTopFilmsInMenuMain
+2022-11-28 00:11:52,871	INFO	Input: :1139166057:1791:/start
+2022-11-28 00:11:52,871	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-28 00:11:52,873	INFO	OUTPUT: 1139166057:1791
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-28 00:11:52,873	INFO	Error: :1139166057:1791:/start
+2022-11-28 00:11:53,949	INFO	Input: :1139166057:1792:ButtonTopFilmsInMenuMain
+2022-11-28 00:11:53,949	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-28 00:13:57,143	INFO	Input: :1139166057:1793:/start
+2022-11-28 00:13:57,144	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-28 00:13:57,145	INFO	OUTPUT: 1139166057:1793
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-28 00:13:57,146	INFO	Error: :1139166057:1793:/start
+2022-11-28 00:13:58,104	INFO	Input: :1139166057:1794:ButtonTopFilmsInMenuMain
+2022-11-28 00:13:58,104	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-28 21:10:05,729	INFO	Input: :1139166057:1795:/start
+2022-11-28 21:10:05,734	INFO	ROUTE: 1139166057 WaitingCommandStart
+2022-11-28 21:10:05,735	INFO	OUTPUT: 1139166057:1795
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-11-28 21:10:05,736	INFO	Error: :1139166057:1795:/start
+2022-11-28 21:10:06,920	INFO	Input: :1139166057:1796:ButtonTopFilmsInMenuMain
+2022-11-28 21:10:06,920	INFO	ROUTE: 1139166057 WaitingClickOnInlineButtonInMenuMain
+2022-11-28 21:10:07,539	INFO	OUTPUT: 1139166057:1796
+text=1  Крестный отец  (The Godfather) , 1972
+2  Черный ящик  (Black Box) , 2021
+3  Три тысячи лет желаний  (Three Thousand Years of Longing) , 2022
+4  Зверопой 2  (Sing 2) , 2021
+5  Человек-Паук 3: нет пути домой  (Spider-Man: No Way Home) , 2021
+6  Вестсайдская история  (West Side Story) , 2021
+7  Все везде и сразу  (Everything Everywhere All at Once) , 2022
+8  Аллея кошмаров  (Nightmare Alley) , 2021
+9  Сядь за руль моей машины  (Doraibu mai ka) , 2021
+10  Лакричная пицца  (Licorice Pizza) , 2021
+
+keyboard=Клавиатуры в данном сообщении нет
+2022-11-28 21:10:07,539	INFO	Error: :1139166057:1796:ButtonTopFilmsInMenuMain

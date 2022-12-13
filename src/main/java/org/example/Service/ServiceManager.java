@@ -18,7 +18,6 @@ public class ServiceManager {
     private MainMenuDeleteFilm mainMenuDeleteFilms;
     private MainMenuSearchFilm mainMenuSearchFilm;
     private StaticService staticService;
-    private TopFilmsParser topFilmsParser;
 
     public ServiceManager() {
         methods = new HashMap<>();
@@ -28,7 +27,6 @@ public class ServiceManager {
         mainMenuDeleteFilms = new MainMenuDeleteFilm();
         mainMenuSearchFilm = new MainMenuSearchFilm();
         staticService = new StaticService();
-        topFilmsParser = new TopFilmsParser();
 
         methods.put(State.WaitingCommandStart, mainMenuService::processCommandStart);
         methods.put(State.WaitingClickOnInlineButtonInMenuMain, mainMenuService::processClickOnInlineButtonInMenuMain);

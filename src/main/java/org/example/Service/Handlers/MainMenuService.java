@@ -56,16 +56,11 @@ public class MainMenuService {
 
             return message;
         } else if (callBackData.equals(ButtonsStorage.ButtonTopFilmsInMenuMain.getCallBackData())) {
-            //TODO ПАРСЕР
 
-            //   message.setText(String.valueOf(topFilmsParser.processGetTopFilms( "",transmittedData)));
-
-            message.setText(topFilmsParser.processGetTopFilms());
-            transmittedData.setState(WaitingClickOnInlineButtonTopFilmsInMenuMain);
-            // message.setText(DialogStringsStorage.CommandStyleFilmsBack);
+            message.setText(topFilmsParser.processGetTopFilms() + "\n" + DialogStringsStorage.CommandTopFilms);
+            transmittedData.setState(WaitingInputStartFromMenu);
 
             return message;
-
 
         } else if (callBackData.equals(ButtonsStorage.ButtonAddFilmsInMenuMain.getCallBackData())) {
             message.setText(DialogStringsStorage.CommandAddNameFilm);

@@ -9,7 +9,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 
 public class StaticService {
     public SendMessage processCommandReset(TransmittedData transmittedData) {
-        transmittedData.setState(State.WaitingClickOnInlineButtonInMenuChooseFilm);
+        transmittedData.setState(State.WaitingCommandStart);
 
         transmittedData.getDataStorage().clear();
 

@@ -1,9 +1,12 @@
 package org.example.Service;
 
-import org.example.Service.Handlers.*;
+import org.example.Model.Connection.HibernateSession;
+import org.example.Model.DbManager;
+import org.example.Model.Tables.*;
+import org.example.Service.menupoints.*;
 import org.example.Statemachine.State;
 import org.example.Statemachine.TransmittedData;
-import org.example.parser.TopFilmsParser;
+import org.hibernate.SessionFactory;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 
 import java.util.HashMap;
@@ -18,8 +21,18 @@ public class ServiceManager {
     private MainMenuDeleteFilm mainMenuDeleteFilms;
     private MainMenuSearchFilm mainMenuSearchFilm;
     private StaticService staticService;
+    private final DbManager dbManager;
 
     public ServiceManager() {
+
+        SessionFactory sessionFactory = HibernateSession.getInstance().getSessionFactory();
+
+        TableFilms tableFilms = new TableFilmsHiberImpl(sessionFactory);
+        TableStyleFilms tableStyleFilms = new TableStyleFilmsHiberImpl(sessionFactory);
+
+
+        dbManager = new DbManager(tableStyleFilms, tableFilms);
+
         methods = new HashMap<>();
         mainMenuService = new MainMenuService();
         mainMenuListFilms = new MainMenuListFilms();

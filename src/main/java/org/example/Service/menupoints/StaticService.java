@@ -1,10 +1,9 @@
-package org.example.Service.Handlers;
+package org.example.Service.menupoints;
 
 import org.example.Statemachine.State;
 import org.example.Statemachine.TransmittedData;
 import org.example.Util.DialogStringsStorage;
 import org.example.Util.InlineKeyboardsMarkupStorage;
-import org.example.Util.SystemStringsStorage;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 
 public class StaticService {

@@ -1,4 +1,4 @@
-package org.example.Service.Handlers;
+package org.example.Service.menupoints;
 
 import org.example.Model.DbManager;
 import org.example.Model.Entities.Film;
@@ -14,12 +14,18 @@ import static org.example.Statemachine.State.WaitingInputStartFromMenu;
 
 public class MainMenuDeleteFilm {
 
+    private DbManager dbManager;
+
+    public MainMenuDeleteFilm() {
+        this.dbManager = dbManager;
+    }
+
     public SendMessage processClickOnInlineButtonInMenuDeleteFilm(String receivedText, TransmittedData transmittedData) throws Exception{
 
         SendMessage message = new SendMessage();
         message.setChatId(transmittedData.getChatId());
 
-        StyleFilm styleFilm = DbManager.getInstance().getTableStyleFilms().getByName(receivedText);
+        StyleFilm styleFilm = dbManager.getTableStyleFilms().getByName(receivedText);
         if(styleFilm == null){
             message.setText(DialogStringsStorage.CommandGenreFilm);
             return message;
@@ -38,7 +44,7 @@ public class MainMenuDeleteFilm {
         //сделать поиск фильма по названию
         //если фильм не найден = нулл
         //если найден - перевести на след стейт , сохранить фильм в дата сторадж и вывести клаву да нет
-        Film film = DbManager.getInstance().getTableFilms().getFilmByName(receivedText);
+        Film film = dbManager.getTableFilms().getFilmByName(receivedText);
         if(film == null){
             message.setText(DialogStringsStorage.CommandFindFilm);
             transmittedData.setState(WaitingInputStartFromMenu);
@@ -59,7 +65,7 @@ public class MainMenuDeleteFilm {
         Film film = (Film) transmittedData.getDataStorage().get("film");
 
         if (callBackData.equals(ButtonsStorage.ButtonDeleteFilmFromMenuMainYes.getCallBackData())){
-            DbManager.getInstance().getTableFilms().deleteByFilmName(film.getName());
+            dbManager.getTableFilms().deleteByFilmName(film.getName());
             message.setText(DialogStringsStorage.CommandDeleteFilmSuccess);
             transmittedData.setState(WaitingInputStartFromMenu);
             return message;

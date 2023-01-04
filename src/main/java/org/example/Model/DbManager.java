@@ -1,21 +1,18 @@
 package org.example.Model;
 
-import org.example.Model.Connection.DbConnection;
 import org.example.Model.Tables.TableFilms;
+import org.example.Model.Tables.TableFilmsJdbcImpl;
 import org.example.Model.Tables.TableStyleFilms;
-
-import java.sql.Connection;
-import java.sql.SQLException;
+import org.example.Model.Tables.TableStyleFilmsJdbcImpl;
 
 public class DbManager {
+
     private TableStyleFilms tableStyleFilms;
     private TableFilms tableFilms;
 
-    private DbManager() throws SQLException {
-        Connection connection = DbConnection.getInstance().getConnection();
-
-        tableFilms = new TableFilms(connection);
-        tableStyleFilms = new TableStyleFilms(connection);
+    public DbManager(TableStyleFilms tableStyleFilms, TableFilms tableFilms) {
+        this.tableStyleFilms = tableStyleFilms;
+        this.tableFilms = tableFilms;
     }
 
     public TableStyleFilms getTableStyleFilms() {
@@ -24,14 +21,5 @@ public class DbManager {
 
     public TableFilms getTableFilms() {
         return tableFilms;
-    }
-
-    private static DbManager instance;
-
-    public static DbManager getInstance() throws SQLException {
-        if (instance == null) {
-            instance = new DbManager();
-        }
-        return instance;
     }
 }

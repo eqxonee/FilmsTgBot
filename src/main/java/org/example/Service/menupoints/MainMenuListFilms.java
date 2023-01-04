@@ -1,4 +1,4 @@
-package org.example.Service.Handlers;
+package org.example.Service.menupoints;
 
 import org.example.Model.DbManager;
 import org.example.Model.Entities.Film;
@@ -13,11 +13,17 @@ import static org.example.Statemachine.State.WaitingInputStartFromMenu;
 
 public class  MainMenuListFilms {
 
+    private DbManager dbManager;
+
+    public MainMenuListFilms() {
+        this.dbManager = dbManager;
+    }
+
     public SendMessage processClickOnInlineButtonStylesFilms(String callBackData, TransmittedData transmittedData) throws Exception {
         SendMessage message = new SendMessage();
         message.setChatId(transmittedData.getChatId());
         if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHorrors.getCallBackData())) {
-            List<Film> filmList = DbManager.getInstance().getTableFilms().getAllHorror();
+            List<Film> filmList = dbManager.getTableFilms().getAllHorror();
             StringBuilder stringBuilder = new StringBuilder();
 
             for (Film film : filmList) {
@@ -33,7 +39,7 @@ public class  MainMenuListFilms {
 
         } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMystic.getCallBackData())) {
             if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMystic.getCallBackData())) {
-                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllMystic();
+                List<Film> filmList = dbManager.getTableFilms().getAllMystic();
                 StringBuilder stringBuilder = new StringBuilder();
 
                 for (Film film : filmList) {
@@ -49,7 +55,7 @@ public class  MainMenuListFilms {
 
         } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHistory.getCallBackData())) {
             if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainHistory.getCallBackData())) {
-                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllHistory();
+                List<Film> filmList = dbManager.getTableFilms().getAllHistory();
                 StringBuilder stringBuilder = new StringBuilder();
 
                 for (Film film : filmList) {
@@ -64,7 +70,7 @@ public class  MainMenuListFilms {
             }
         } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainComedy.getCallBackData())) {
             if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainComedy.getCallBackData())) {
-                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllComedy();
+                List<Film> filmList = dbManager.getTableFilms().getAllComedy();
                 StringBuilder stringBuilder = new StringBuilder();
 
                 for (Film film : filmList) {
@@ -79,7 +85,7 @@ public class  MainMenuListFilms {
             }
         } else if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMilitary.getCallBackData())) {
             if (callBackData.equals(ButtonsStorage.ButtonStylesFilmsFromMenuMainMilitary.getCallBackData())) {
-                List<Film> filmList = DbManager.getInstance().getTableFilms().getAllMilitary();
+                List<Film> filmList = dbManager.getTableFilms().getAllMilitary();
                 StringBuilder stringBuilder = new StringBuilder();
 
                 for (Film film : filmList) {

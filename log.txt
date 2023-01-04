@@ -1771,3 +1771,270 @@ keyboard=Клавиатуры в данном сообщении нет
 text=Выберите действие
 keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
 2022-12-13 20:54:08,409	INFO	Error: :732314018:2146:/reset
+2022-12-18 15:32:01,250	INFO	Input: :732314018:2256:/reset
+2022-12-18 15:32:01,254	INFO	ROUTE: 732314018 WaitingCommandStart
+2022-12-18 15:32:01,255	INFO	OUTPUT: 732314018:2256
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-12-18 15:32:01,255	INFO	Error: :732314018:2256:/reset
+2022-12-18 15:32:02,917	INFO	Input: :732314018:2258:/start
+2022-12-18 15:32:02,917	INFO	ROUTE: 732314018 WaitingCommandStart
+2022-12-18 15:32:02,922	INFO	OUTPUT: 732314018:2258
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-12-18 15:32:02,922	INFO	Error: :732314018:2258:/start
+2022-12-18 15:32:05,689	INFO	Input: :732314018:2259:ButtonMyCardsInMenuMain
+2022-12-18 15:32:05,689	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2022-12-18 15:32:05,690	INFO	OUTPUT: 732314018:2259
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-12-18 15:32:05,690	INFO	Error: :732314018:2259:ButtonMyCardsInMenuMain
+2022-12-18 15:32:07,404	INFO	Input: :732314018:2260:ButtonStylesFilmsFromMenuMainMystic
+2022-12-18 15:32:07,404	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuChooseFilm
+2022-12-18 15:32:07,752	INFO	OUTPUT: 732314018:2260
+text=Категория мистика: 
+Название=тоже хз
+Длительность=1
+Актуальная ссылка=empty
+Дата выхода фильма=2010
+
+
+ Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-12-18 15:32:07,752	INFO	Error: :732314018:2260:ButtonStylesFilmsFromMenuMainMystic
+2022-12-18 15:32:09,545	INFO	Input: :732314018:2262:/start
+2022-12-18 15:32:09,546	INFO	ROUTE: 732314018 WaitingInputStartFromMenu
+2022-12-18 15:32:09,549	INFO	OUTPUT: 732314018:2262
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-12-18 15:32:09,550	INFO	Error: :732314018:2262:/start
+2022-12-18 15:32:13,028	INFO	Input: :732314018:2263:ButtonTopFilmsInMenuMain
+2022-12-18 15:32:13,028	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2022-12-18 15:32:13,802	INFO	OUTPUT: 732314018:2263
+text=1  Крестный отец  (The Godfather) , 1972
+2  Черный ящик  (Black Box) , 2021
+3  Зверопой 2  (Sing 2) , 2021
+4  Три тысячи лет желаний  (Three Thousand Years of Longing) , 2022
+5  Все везде и сразу  (Everything Everywhere All at Once) , 2022
+6  Сядь за руль моей машины  (Doraibu mai ka) , 2021
+7  Аллея кошмаров  (Nightmare Alley) , 2021
+8  Лакричная пицца  (Licorice Pizza) , 2021
+9  Анчартед: На картах не значится  (Uncharted) , 2022
+10  Вышка  (Fall) , 2022
+
+ТОП 10 фильмов по мнению сайта - kinonews. Введите /start для возврата в главное меню
+keyboard=Клавиатуры в данном сообщении нет
+2022-12-18 15:32:13,803	INFO	Error: :732314018:2263:ButtonTopFilmsInMenuMain
+2022-12-18 15:32:16,283	INFO	Input: :732314018:2265:/reset
+2022-12-18 15:32:16,286	INFO	ROUTE: 732314018 WaitingInputStartFromMenu
+2022-12-18 15:32:16,286	INFO	OUTPUT: 732314018:2265
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-12-18 15:32:16,287	INFO	Error: :732314018:2265:/reset
+2022-12-18 15:32:18,768	INFO	Input: :732314018:2266:ButtonMyCardsInMenuMain
+2022-12-18 15:32:18,769	INFO	ROUTE: 732314018 WaitingCommandStart
+2022-12-18 15:32:18,769	INFO	OUTPUT: 732314018:2266
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-12-18 15:32:18,769	INFO	Error: :732314018:2266:ButtonMyCardsInMenuMain
+2022-12-18 15:32:23,989	INFO	Input: :732314018:2268:/start
+2022-12-18 15:32:23,989	INFO	ROUTE: 732314018 WaitingCommandStart
+2022-12-18 15:32:23,990	INFO	OUTPUT: 732314018:2268
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-12-18 15:32:23,991	INFO	Error: :732314018:2268:/start
+2022-12-18 15:32:25,480	INFO	Input: :732314018:2269:ButtonMyCardsInMenuMain
+2022-12-18 15:32:25,481	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2022-12-18 15:32:25,481	INFO	OUTPUT: 732314018:2269
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2022-12-18 15:32:25,481	INFO	Error: :732314018:2269:ButtonMyCardsInMenuMain
+2022-12-18 15:32:26,897	INFO	Input: :732314018:2270:ButtonStylesFilmsFromMenuMainComedy
+2022-12-18 15:32:26,897	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuChooseFilm
+2022-12-18 15:32:26,910	INFO	OUTPUT: 732314018:2270
+text=Категория комедии: 
+Название=Мистер Бин
+Длительность=300
+Актуальная ссылка=empty
+Дата выхода фильма=2005
+
+Название=Не смотря ни на что
+Длительность=111
+Актуальная ссылка=https://www.kinopoisk.ru/film/887535/
+Дата выхода фильма=2017
+
+Название=Джентльмены
+Длительность=113
+Актуальная ссылка=https://www.kinopoisk.ru/film/1143242/
+Дата выхода фильма=2019
+
+Название=Скуби Ду
+Длительность=100
+Актуальная ссылка=Empty
+Дата выхода фильма=2001
+
+Название=Иван Васильевич меняет профессию
+Длительность=120
+Актуальная ссылка=Плалалта
+Дата выхода фильма=1982
+
+
+ Для возврата в главное меню введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-12-18 15:32:26,911	INFO	Error: :732314018:2270:ButtonStylesFilmsFromMenuMainComedy
+2022-12-18 15:32:29,761	INFO	Input: :732314018:2272:/start
+2022-12-18 15:32:29,761	INFO	ROUTE: 732314018 WaitingInputStartFromMenu
+2022-12-18 15:32:29,762	INFO	OUTPUT: 732314018:2272
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-12-18 15:32:29,762	INFO	Error: :732314018:2272:/start
+2022-12-18 15:32:32,260	INFO	Input: :732314018:2274:/reset
+2022-12-18 15:32:32,261	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2022-12-18 15:32:32,261	INFO	OUTPUT: 732314018:2274
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-12-18 15:32:32,261	INFO	Error: :732314018:2274:/reset
+2022-12-18 15:32:33,556	INFO	Input: :732314018:2275:ButtonFindFilmsInMenuMain
+2022-12-18 15:32:33,556	INFO	ROUTE: 732314018 WaitingCommandStart
+2022-12-18 15:32:33,556	INFO	OUTPUT: 732314018:2275
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2022-12-18 15:32:33,557	INFO	Error: :732314018:2275:ButtonFindFilmsInMenuMain
+2022-12-18 15:32:34,963	INFO	Input: :732314018:2277:/start
+2022-12-18 15:32:34,963	INFO	ROUTE: 732314018 WaitingCommandStart
+2022-12-18 15:32:34,963	INFO	OUTPUT: 732314018:2277
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2022-12-18 15:32:34,963	INFO	Error: :732314018:2277:/start
+2023-01-04 17:23:01,398	INFO	HHH000412: Hibernate ORM core version 5.6.5.Final
+2023-01-04 17:23:12,538	INFO	Input: :732314018:2347:/start
+2023-01-04 17:23:12,540	INFO	ROUTE: 732314018 WaitingCommandStart
+2023-01-04 17:23:12,543	INFO	OUTPUT: 732314018:2347
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 17:23:12,543	INFO	Error: :732314018:2347:/start
+2023-01-04 17:23:17,722	INFO	Input: :732314018:2348:ButtonMyCardsInMenuMain
+2023-01-04 17:23:17,723	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2023-01-04 17:23:17,724	INFO	OUTPUT: 732314018:2348
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2023-01-04 17:23:17,724	INFO	Error: :732314018:2348:ButtonMyCardsInMenuMain
+2023-01-04 17:23:19,738	INFO	Input: :732314018:2349:ButtonStylesFilmsFromMenuMainHorrors
+2023-01-04 17:23:19,739	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuChooseFilm
+2023-01-04 17:23:35,453	INFO	Input: :732314018:2350:/start
+2023-01-04 17:23:35,453	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuChooseFilm
+2023-01-04 17:23:37,722	INFO	Input: :732314018:2351:/reset
+2023-01-04 17:23:37,722	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuChooseFilm
+2023-01-04 17:23:37,723	INFO	OUTPUT: 732314018:2351
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 17:23:37,723	INFO	Error: :732314018:2351:/reset
+2023-01-04 17:23:39,575	INFO	Input: :732314018:2352:ButtonTopFilmsInMenuMain
+2023-01-04 17:23:39,575	INFO	ROUTE: 732314018 WaitingCommandStart
+2023-01-04 17:23:39,576	INFO	OUTPUT: 732314018:2352
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2023-01-04 17:23:39,576	INFO	Error: :732314018:2352:ButtonTopFilmsInMenuMain
+2023-01-04 17:23:41,909	INFO	Input: :732314018:2354:/start
+2023-01-04 17:23:41,909	INFO	ROUTE: 732314018 WaitingCommandStart
+2023-01-04 17:23:41,909	INFO	OUTPUT: 732314018:2354
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 17:23:41,910	INFO	Error: :732314018:2354:/start
+2023-01-04 17:23:43,312	INFO	Input: :732314018:2355:ButtonTopFilmsInMenuMain
+2023-01-04 17:23:43,313	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2023-01-04 17:23:44,167	INFO	OUTPUT: 732314018:2355
+text=1  Крестный отец  (The Godfather) , 1972
+2  Черный ящик  (Black Box) , 2021
+3  Три тысячи лет желаний  (Three Thousand Years of Longing) , 2022
+4  Все везде и сразу  (Everything Everywhere All at Once) , 2022
+5  Сядь за руль моей машины  (Doraibu mai ka) , 2021
+6  Аллея кошмаров  (Nightmare Alley) , 2021
+7  Лакричная пицца  (Licorice Pizza) , 2021
+8  Анчартед: На картах не значится  (Uncharted) , 2022
+9  Вышка  (Fall) , 2022
+10  Пропавшая  (Last Seen Alive) , 2022
+
+ТОП 10 фильмов по мнению сайта - kinonews. Введите /start для возврата в главное меню
+keyboard=Клавиатуры в данном сообщении нет
+2023-01-04 17:23:44,167	INFO	Error: :732314018:2355:ButtonTopFilmsInMenuMain
+2023-01-04 17:23:46,235	INFO	Input: :732314018:2357:/start
+2023-01-04 17:23:46,236	INFO	ROUTE: 732314018 WaitingInputStartFromMenu
+2023-01-04 17:23:46,236	INFO	OUTPUT: 732314018:2357
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 17:23:46,237	INFO	Error: :732314018:2357:/start
+2023-01-04 17:23:48,882	INFO	Input: :732314018:2358:ButtonTransferMoneyInMenuMain
+2023-01-04 17:23:48,882	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2023-01-04 17:23:48,883	INFO	OUTPUT: 732314018:2358
+text=Введите название фильма: 
+keyboard=Клавиатуры в данном сообщении нет
+2023-01-04 17:23:48,883	INFO	Error: :732314018:2358:ButtonTransferMoneyInMenuMain
+2023-01-04 17:23:51,957	INFO	Input: :732314018:2360:aaa
+2023-01-04 17:23:51,958	INFO	ROUTE: 732314018 NameFilm
+2023-01-04 17:23:51,960	INFO	OUTPUT: 732314018:2360
+text=Введите год выпуска фильма: 
+keyboard=Клавиатуры в данном сообщении нет
+2023-01-04 17:23:51,960	INFO	Error: :732314018:2360:aaa
+2023-01-04 17:23:55,743	INFO	Input: :732314018:2362:2000
+2023-01-04 17:23:55,743	INFO	ROUTE: 732314018 ReleaseFilm
+2023-01-04 17:23:55,743	INFO	OUTPUT: 732314018:2362
+text=Введите длительность фильма: 
+keyboard=Клавиатуры в данном сообщении нет
+2023-01-04 17:23:55,744	INFO	Error: :732314018:2362:2000
+2023-01-04 17:23:58,502	INFO	Input: :732314018:2364:112
+2023-01-04 17:23:58,503	INFO	ROUTE: 732314018 DurationFilm
+2023-01-04 17:24:02,475	INFO	Input: :732314018:2365:1234
+2023-01-04 17:24:02,476	INFO	ROUTE: 732314018 DurationFilm
+2023-01-04 17:24:04,274	INFO	Input: :732314018:2366:123
+2023-01-04 17:24:04,274	INFO	ROUTE: 732314018 DurationFilm
+2023-01-04 17:27:24,335	INFO	HHH000412: Hibernate ORM core version 5.6.5.Final
+2023-01-04 17:27:30,678	INFO	Input: :732314018:2367:/start
+2023-01-04 17:27:30,680	INFO	ROUTE: 732314018 WaitingCommandStart
+2023-01-04 17:27:30,683	INFO	OUTPUT: 732314018:2367
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 17:27:30,684	INFO	Error: :732314018:2367:/start
+2023-01-04 17:27:32,911	INFO	Input: :732314018:2368:ButtonMyCardsInMenuMain
+2023-01-04 17:27:32,911	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2023-01-04 17:27:32,911	INFO	OUTPUT: 732314018:2368
+text=Выберите жанр
+keyboard=Ужасы;Мистика;Исторические;Комедии;Боевики;
+2023-01-04 17:27:32,912	INFO	Error: :732314018:2368:ButtonMyCardsInMenuMain
+2023-01-04 17:27:34,490	INFO	Input: :732314018:2369:ButtonStylesFilmsFromMenuMainHorrors
+2023-01-04 17:27:34,490	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuChooseFilm
+2023-01-04 18:20:35,399	INFO	HHH000412: Hibernate ORM core version 5.6.5.Final
+2023-01-04 18:20:41,882	INFO	Input: :732314018:2370:/start
+2023-01-04 18:20:41,884	INFO	ROUTE: 732314018 WaitingCommandStart
+2023-01-04 18:20:41,885	INFO	OUTPUT: 732314018:2370
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 18:20:41,886	INFO	Error: :732314018:2370:/start
+2023-01-04 18:20:45,342	INFO	Input: :732314018:2371:ButtonFindFilmsInMenuMain
+2023-01-04 18:20:45,343	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain
+2023-01-04 18:20:45,343	INFO	OUTPUT: 732314018:2371
+text=Введите название фильма: 
+keyboard=Клавиатуры в данном сообщении нет
+2023-01-04 18:20:45,344	INFO	Error: :732314018:2371:ButtonFindFilmsInMenuMain
+2023-01-04 18:20:51,077	INFO	Input: :732314018:2373:Джентльмены
+2023-01-04 18:20:51,077	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuFindFilm
+2023-01-04 18:21:15,960	INFO	Input: :732314018:2374:/reset
+2023-01-04 18:21:15,961	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuFindFilm
+2023-01-04 18:21:15,961	INFO	OUTPUT: 732314018:2374
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 18:21:15,962	INFO	Error: :732314018:2374:/reset
+2023-01-04 18:21:19,137	INFO	Input: :732314018:2375:ButtonDeleteFilmsInMenuMain
+2023-01-04 18:21:19,138	INFO	ROUTE: 732314018 WaitingCommandStart
+2023-01-04 18:21:19,138	INFO	OUTPUT: 732314018:2375
+text=Команда не распознана. Для начала работы с ботом введите /start
+keyboard=Клавиатуры в данном сообщении нет
+2023-01-04 18:21:19,138	INFO	Error: :732314018:2375:ButtonDeleteFilmsInMenuMain
+2023-01-04 18:21:21,490	INFO	Input: :732314018:2377:/start
+2023-01-04 18:21:21,490	INFO	ROUTE: 732314018 WaitingCommandStart
+2023-01-04 18:21:21,491	INFO	OUTPUT: 732314018:2377
+text=Выберите действие
+keyboard=Список фильмов;Топ фильмов;Добавить фильм;Удалить фильм;Поиск фильма;
+2023-01-04 18:21:21,491	INFO	Error: :732314018:2377:/start
+2023-01-04 18:21:22,719	INFO	Input: :732314018:2378:ButtonDeleteFilmsInMenuMain
+2023-01-04 18:21:22,719	INFO	ROUTE: 732314018 WaitingClickOnInlineButtonInMenuMain

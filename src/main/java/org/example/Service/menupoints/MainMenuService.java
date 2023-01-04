@@ -1,4 +1,4 @@
-package org.example.Service.Handlers;
+package org.example.Service.menupoints;
 
 
 import org.example.Model.DbManager;
@@ -18,10 +18,13 @@ import static org.example.Statemachine.State.*;
 
 
 public class MainMenuService {
+
+    private DbManager dbManager;
     private TopFilmsParser topFilmsParser;
 
     public MainMenuService() {
         topFilmsParser = new TopFilmsParser();
+        this.dbManager = dbManager;
     }
 
     public SendMessage processCommandStart(String command, TransmittedData transmittedData) {
@@ -71,7 +74,7 @@ public class MainMenuService {
         } else if (callBackData.equals(ButtonsStorage.ButtonDeleteFilmsInMenuMain.getCallBackData())) {
             //message.setReplyMarkup(InlineKeyboardsMarkupStorage.GetInlineKeyboardMarkupMenuMainStylesFilm());
             StringBuilder stringBuilder = new StringBuilder();
-            List<StyleFilm> filmList = DbManager.getInstance().getTableStyleFilms().getAll();
+            List<StyleFilm> filmList = dbManager.getTableStyleFilms().getAll();
             for (int i = 0; i < filmList.size(); i++) {
                 int id = filmList.get(i).getId();
                 String style = filmList.get(i).getStyleFilm();

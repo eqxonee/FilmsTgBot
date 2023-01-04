@@ -1,4 +1,4 @@
-package org.example.Service.Handlers;
+package org.example.Service.menupoints;
 
 import org.example.Model.DbManager;
 import org.example.Model.Entities.Film;
@@ -12,6 +12,12 @@ import java.util.List;
 import static org.example.Statemachine.State.*;
 
 public class MainMenuAddFilm {
+
+    private DbManager dbManager;
+
+    public MainMenuAddFilm() {
+        this.dbManager = dbManager;
+    }
 
     public SendMessage processNameFilm(String receivedText, TransmittedData transmittedData) throws Exception{
         SendMessage message = new SendMessage();
@@ -42,7 +48,7 @@ public class MainMenuAddFilm {
         message.setChatId(transmittedData.getChatId());
 
         StringBuilder stringBuilder = new StringBuilder();
-        List<StyleFilm> filmList = DbManager.getInstance().getTableStyleFilms().getAll();
+        List<StyleFilm> filmList = dbManager.getTableStyleFilms().getAll();
         for (int i = 0; i < filmList.size(); i++) {
             int id = filmList.get(i).getId();
             String style = filmList.get(i).getStyleFilm();
@@ -69,6 +75,7 @@ public class MainMenuAddFilm {
         transmittedData.getDataStorage().add(String.valueOf(transmittedData.getChatId()), film);
         transmittedData.setState(LinkFilm);
 
+
         return message;
     }
 
@@ -81,7 +88,7 @@ public class MainMenuAddFilm {
         film.setLinkFilm(receivedText);
         transmittedData.getDataStorage().add(String.valueOf(transmittedData.getChatId()), film);
         Film filmEnd = (Film) transmittedData.getDataStorage().get(String.valueOf(transmittedData.getChatId()));
-        DbManager.getInstance().getTableFilms().addNew(filmEnd);
+        dbManager.getTableFilms().addNew(filmEnd);
         transmittedData.setState(WaitingInputStartFromMenu);
 
         return message;

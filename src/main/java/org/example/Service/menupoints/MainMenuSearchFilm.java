@@ -1,4 +1,4 @@
-package org.example.Service.Handlers;
+package org.example.Service.menupoints;
 
 import org.example.Model.DbManager;
 import org.example.Model.Entities.Film;
@@ -10,13 +10,19 @@ import static org.example.Statemachine.State.WaitingInputStartFromMenu;
 
 public class MainMenuSearchFilm {
 
+    private DbManager dbManager;
+
+    public MainMenuSearchFilm() {
+        this.dbManager = dbManager;
+    }
+
     public SendMessage processClickOnInlineButtonInMenuFindFilm(String receivedText, TransmittedData transmittedData) throws Exception{
 
         SendMessage message = new SendMessage();
         message.setChatId(transmittedData.getChatId());
 
 
-        Film film = DbManager.getInstance().getTableFilms().getFilmByName(receivedText);
+        Film film = dbManager.getTableFilms().getFilmByName(receivedText);
         transmittedData.getDataStorage().add("film",film);
 
         if(film == null){

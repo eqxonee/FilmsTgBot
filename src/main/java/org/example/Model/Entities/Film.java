@@ -1,91 +1,40 @@
 package org.example.Model.Entities;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "films")
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
 public class Film {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column(name = "name")
     private String name;
-    private long chatId;
+
+    @Column(name = "time_length")
     private int timeLength;
+
+    @Column(name = "link_film")
     private String linkFilm;
+
+    @Column(name = "release_year")
     private int releaseFilm;
+
+    @Column(name = "style_film_id")
     private int styleFilmToId;
 
-    public Film(int id, long chatId, String name, int timeLength, String linkFilm, int releaseFilm, int styleFilmToId) {
-        this.id = id;
-        this.chatId = chatId;
-        this.name = name;
-        this.timeLength = timeLength;
-        this.linkFilm = linkFilm;
-        this.releaseFilm = releaseFilm;
-        this.styleFilmToId = styleFilmToId;
-    }
-
-    public Film(long chatId, String name){
-        this.chatId = chatId;
-        this.name = name;
-    }
-
-    public Film(String name, int timeLength, String linkFilm, int releaseFilm) {
-        this.name = name;
-        this.timeLength = timeLength;
-        this.linkFilm = linkFilm;
-        this.releaseFilm = releaseFilm;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getTimeLength() {
-        return timeLength;
-    }
-
-    public String getLinkFilm() {
-        return linkFilm;
-    }
-
-    public int getReleaseFilm() {
-        return releaseFilm;
-    }
-
-    public int getStyleFilmToId() {
-        return styleFilmToId;
-    }
-
-    public long getChatId() {
-        return chatId;
-    }
-
-
-
-    public void setTimeLength(int timeLength) {
-        this.timeLength = timeLength;
-    }
-
-    public void setLinkFilm(String linkFilm) {
-        this.linkFilm = linkFilm;
-    }
-
-    public void setReleaseFilm(int releaseFilm) {
-        this.releaseFilm = releaseFilm;
-    }
-
-    public void setStyleFilmToId(int styleFilmToId) {
-        this.styleFilmToId = styleFilmToId;
-    }
-
-    @Override
-    public String toString() {
-        return "" +
-                "Название=" + name + '\n' +
-                "Длительность=" + timeLength + '\n' +
-                "Актуальная ссылка=" + linkFilm + '\n' +
-                "Дата выхода фильма=" + releaseFilm + '\n'
-                ;
+    public Film(String receivedText, int i, String s, int i1) {
     }
 }
 
